@@ -8,7 +8,7 @@ add_compile_options(-Wall)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED COMPONENTS message_generation std_msgs sensor_msgs)
+find_package(catkin REQUIRED COMPONENTS message_generation std_msgs sensor_msgs geometry_msgs)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -59,6 +59,11 @@ add_message_files(
     HwTrigOutCfg.msg
     TestPatternCfg.msg
     PeriodicSwTrig.msg
+    NavPos.msg
+    StampedString.msg
+    SystemDefs.msg
+    TriggerStatus.msg
+    WarningFlags.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -80,6 +85,8 @@ add_service_files(
 generate_messages(
    DEPENDENCIES
    std_msgs  # Or other packages containing msgs
+   sensor_msgs
+   geometry_msgs
 )
 
 ################################################
