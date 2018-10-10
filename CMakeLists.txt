@@ -64,6 +64,8 @@ add_message_files(
     SystemDefs.msg
     TriggerStatus.msg
     WarningFlags.msg
+    NavPosStatus.msg
+    TimeStatus.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -72,6 +74,10 @@ add_service_files(
     ConvertRawTstamp.srv
     FileReset.srv
     ListNTPServers.srv
+    SystemDefsQuery.srv
+    TriggerStatusQuery.srv
+    NavPosQuery.srv
+    NavPosTimeStatus.srv
 )
 
 ## Generate actions in the 'action' folder
