@@ -1,0 +1,6 @@
+# This service provides a mechanism to request the static system definitions.
+# These definitions provides detail about the form and composition of the
+# (dynamic) SystemStaus message.
+
+---
+num_sdk_msgs/SystemDefs defs
