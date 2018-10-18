@@ -16,6 +16,9 @@ float32 disk_usage
 # Current storage rate (MB/s)
 float32 storage_rate
 
+# Indicates that the system is saving ALL data
+bool save_all_enabled
+
 # Generic info strings for U/I display, logging, etc.
 StampedString[] info_strings
 
