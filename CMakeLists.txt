@@ -49,7 +49,7 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs sensor_msgs 
 add_message_files(
     FILES
     Reset.msg
-    NDSaveData.msg
+    SaveData.msg
     NDDatafileCtrl.msg
     NDRange.msg
     NDAngle.msg

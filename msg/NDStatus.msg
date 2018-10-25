@@ -11,7 +11,7 @@ string save_data_dir
 
 # The save_data field indicates whether captured data is currently being saved in continuous fashion. The
 # save-data-next control does not affect this field
-NDSaveData save_data
+SaveData save_data
 
 # The pause_enable field provides the current run/pause state of the nd_node
 bool pause_enable
