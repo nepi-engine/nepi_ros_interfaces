@@ -50,6 +50,7 @@ add_message_files(
     FILES
     Reset.msg
     SaveData.msg
+    SaveDataStatus.msg
     NDDatafileCtrl.msg
     NDRange.msg
     NDAngle.msg

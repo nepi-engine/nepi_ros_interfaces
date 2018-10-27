@@ -6,13 +6,6 @@
 # The display_name field provides a user-configurable name for GUI display, file names, etc.
 string display_name
 
-# The save_data_dir field provides the current directory to which ND data products are saved
-string save_data_dir
-
-# The save_data field indicates whether captured data is currently being saved in continuous fashion. The
-# save-data-next control does not affect this field
-SaveData save_data
-
 # The pause_enable field provides the current run/pause state of the nd_node
 bool pause_enable
 
