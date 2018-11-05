@@ -81,7 +81,8 @@ add_service_files(
     TriggerStatusQuery.srv
     TriggerDefs.srv
     NavPosQuery.srv
-    NavPosTimeStatus.srv
+    NavPosStatusQuery.srv
+    TimeStatusQuery.srv
 )
 
 ## Generate actions in the 'action' folder
