@@ -76,7 +76,6 @@ add_service_files(
     FILES
     ConvertRawTstamp.srv
     FileReset.srv
-    ListNTPServers.srv
     SystemDefsQuery.srv
     TriggerStatusQuery.srv
     TriggerDefs.srv

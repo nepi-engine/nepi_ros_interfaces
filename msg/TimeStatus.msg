@@ -7,9 +7,15 @@ time current_time
 # System clock at time of last PPS receipt
 time last_pps
 
-# IPv4 addresses of all configured NTP servers
-string[] ntp_servers
+# Servers
+string[] ntp_sources 
 
-# Seconds since last sync message received from indexed server
-uint32[] last_ntp_sync
+# Time since last sync message received from indexed server (seconds if no time-duration suffix)
+string[] last_ntp_sync
+
+# Estimated clock offset from indexed server (units indicated in string)
+string[] current_offset
+
+# Last set_time (hard set from external host)
+time last_set_time
 
