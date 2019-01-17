@@ -6,7 +6,7 @@
 time timestamp
 string serial_num
 string sw_rev
-float32 navsat_fix_time
+time navsat_fix_time
 float32 latitude
 float32 longitude
 float32 heading
