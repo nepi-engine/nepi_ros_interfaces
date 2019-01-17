@@ -70,6 +70,7 @@ add_message_files(
     NavPosStatus.msg
     TimeStatus.msg
     TriggerIndexSettings.msg
+    OotStatus.msg
 )
 
 ## Generate services in the 'srv' folder
