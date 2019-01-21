@@ -15,7 +15,7 @@ float32 bus_voltage
 float32 temperature
 uint32 trig_wake_count
 uint8 wake_event_type
-uint8 wake_event_id
+int8 wake_event_id
 uint32 task_index
 uint32 trig_cfg_index
 uint32 rule_cfg_index
