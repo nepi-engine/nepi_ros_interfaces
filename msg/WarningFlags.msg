@@ -1,10 +1,10 @@
 # Simple container for a warning array. 
-# Definitions and human readable strings are included in the definition
+# Array indices and human readable strings are included as constants below
 
 # Array of flags - length must stay coordinated with definitions below
 bool[3] flags
 
-### Bit Definitions ###
+### Flags Index Definitions ###
 uint32 DISK_FULL				=	0
 string DISK_FULL_STRING="Data storage space low"
 
