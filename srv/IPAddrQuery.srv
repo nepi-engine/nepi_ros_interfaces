@@ -1,0 +1,5 @@
+# This service definition provides the current list of IP addresses on the ethernet interface
+
+---
+# Array of CIDR-formatted ip addresses
+string[] ip_addrs

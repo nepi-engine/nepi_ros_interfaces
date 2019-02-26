@@ -84,6 +84,7 @@ add_service_files(
     NavPosQuery.srv
     NavPosStatusQuery.srv
     TimeStatusQuery.srv
+    IPAddrQuery.srv
 )
 
 ## Generate actions in the 'action' folder
