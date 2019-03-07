@@ -24,9 +24,4 @@ float32 heading
 
 ## TODO - interpolation description
 
-## TODO - nav sensor status
-
-
-
-
 
