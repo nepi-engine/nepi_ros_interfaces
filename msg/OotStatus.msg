@@ -21,4 +21,5 @@ uint32 trig_cfg_index
 uint32 rule_cfg_index
 uint32 sensor_cfg_index
 uint32 node_cfg_index
+uint32 geofence_cfg_index
 uint32 state_flags
