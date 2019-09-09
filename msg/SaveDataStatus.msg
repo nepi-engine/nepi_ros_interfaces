@@ -1,4 +1,4 @@
-# The current_data_dir field provides the current directory to which ND data products are saved
+# The current_data_dir field provides the current directory to which 3DX data products are saved
 string current_data_dir
 
 # The save_data field indicates whether captured data is currently being saved in continuous fashion. The

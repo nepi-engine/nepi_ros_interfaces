@@ -52,11 +52,11 @@ add_message_files(
     Reset.msg
     SaveData.msg
     SaveDataStatus.msg
-    NDDatafileCtrl.msg
-    NDRange.msg
-    NDAngle.msg
-    NDAutoManualSelection.msg
-    NDStatus.msg
+    DatafileCtrl3DX.msg
+    Range3DX.msg
+    Angle3DX.msg
+    AutoManualSelection3DX.msg
+    Status3DX.msg
     HwTrigInCfg.msg
     HwTrigOutCfg.msg
     TestPatternCfg.msg
