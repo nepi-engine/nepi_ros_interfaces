@@ -48,13 +48,15 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs sensor_msgs 
 ## Generate messages in the 'msg' folder
 add_message_files(
     FILES
+    Annotation.msg
     Reset.msg
-    NDSaveData.msg
-    NDDatafileCtrl.msg
-    NDRange.msg
-    NDAngle.msg
-    NDAutoManualSelection.msg
-    NDStatus.msg
+    SaveData.msg
+    SaveDataStatus.msg
+    DatafileCtrl3DX.msg
+    Range3DX.msg
+    Angle3DX.msg
+    AutoManualSelection3DX.msg
+    Status3DX.msg
     HwTrigInCfg.msg
     HwTrigOutCfg.msg
     TestPatternCfg.msg
@@ -67,6 +69,8 @@ add_message_files(
     WarningFlags.msg
     NavPosStatus.msg
     TimeStatus.msg
+    TriggerIndexSettings.msg
+    OotStatus.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -74,11 +78,14 @@ add_service_files(
     FILES
     ConvertRawTstamp.srv
     FileReset.srv
-    ListNTPServers.srv
     SystemDefsQuery.srv
     TriggerStatusQuery.srv
+    TriggerDefs.srv
     NavPosQuery.srv
-    NavPosTimeStatus.srv
+    NavPosStatusQuery.srv
+    TimeStatusQuery.srv
+    IPAddrQuery.srv
+    OpEnvironmentQuery.srv
 )
 
 ## Generate actions in the 'action' folder

@@ -21,7 +21,6 @@ geometry_msgs/Quaternion orientation
 
 # Heading (deg)
 float32 heading
+bool heading_true_north
 
-## TODO - interpolation description
-
-
+## TODO - nav sensor status

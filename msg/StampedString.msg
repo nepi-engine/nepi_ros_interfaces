@@ -10,6 +10,6 @@ uint8 priority
 string payload
 
 # Priority/Criticality levels
-uint8 NORMAL=0
-uint8 ELEVATED=1
-uint8 HIGH=2
+uint8 PRI_NORMAL=0
+uint8 PRI_ELEVATED=1
+uint8 PRI_HIGH=2

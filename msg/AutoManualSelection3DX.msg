@@ -1,4 +1,4 @@
-# This message provides a generic form for ND controls that have an on/off mechanism and a tweak/adjustment value to be applied when the on/off is on.
+# This message provides a generic form for 3DX controls that have an on/off mechanism and a tweak/adjustment value to be applied when the on/off is on.
 
 # The enabled field turns manual adjustment on/off
 bool enabled

@@ -9,12 +9,11 @@ float32 auto_rate
 # Actual rate of this trigger value
 float32 achieved_rate
 
-# Indicates whether a received input h/w trigger will execute this trigger value
-# (in it's entirety)
-bool hw_trig_in_enabled
+# Assigned H/W Input Trigger Value
+uint32 hw_in_trig_val
 
-# Indicates whether this trigger value will generate a hardware trigger out
-bool hw_trig_out_enabled
+# Rate of H/W Input Triggers
+float32 hw_in_trig_rate
 
 # Most recent execution time for this trigger. 0 indicates the trigger has never fired.
 time last_execution_time
