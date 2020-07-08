@@ -71,6 +71,7 @@ add_message_files(
     TimeStatus.msg
     TriggerIndexSettings.msg
     OotStatus.msg
+    ClassifierSelection.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -86,6 +87,7 @@ add_service_files(
     TimeStatusQuery.srv
     IPAddrQuery.srv
     OpEnvironmentQuery.srv
+    ImageClassifierListQuery.srv
 )
 
 ## Generate actions in the 'action' folder

@@ -1,0 +1,4 @@
+# Service file for the list of object classifiers supported by this device
+
+---
+string[] classifiers
