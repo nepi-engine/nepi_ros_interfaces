@@ -88,6 +88,7 @@ add_service_files(
     IPAddrQuery.srv
     OpEnvironmentQuery.srv
     ImageClassifierListQuery.srv
+    ImageClassifierStatusQuery.srv
 )
 
 ## Generate actions in the 'action' folder
