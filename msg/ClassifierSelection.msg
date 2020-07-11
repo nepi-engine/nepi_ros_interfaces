@@ -6,3 +6,6 @@ string img_topic
 
 # Classifier - one of the classifiers provided by the ImageClassifierListQuery
 string classifier
+
+# Probability threshold for detection (0.0 - 1.0; higher means more selective)
+float32 detection_threshold
