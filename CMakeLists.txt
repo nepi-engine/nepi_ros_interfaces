@@ -52,6 +52,7 @@ add_message_files(
     Reset.msg
     SaveData.msg
     SaveDataStatus.msg
+    SaveDataRate.msg
     DatafileCtrl3DX.msg
     Range3DX.msg
     Angle3DX.msg
@@ -89,6 +90,7 @@ add_service_files(
     OpEnvironmentQuery.srv
     ImageClassifierListQuery.srv
     ImageClassifierStatusQuery.srv
+    DataProductQuery.srv
 )
 
 ## Generate actions in the 'action' folder

@@ -1,0 +1,5 @@
+# This service definition provides the list of savable data products produced by a node
+
+---
+# Array of data product names
+num_sdk_msgs/SaveDataRate[] data_products
