@@ -7,6 +7,9 @@
 # Firmware version string
 string firmware_version
 
+# Device serial number
+string device_sn
+
 # Array of names that correspond to values in SystemStatus.temperatures
 string[] temperature_sensor_names
 
@@ -18,6 +21,3 @@ float32[] critical_temps
 
 # Total data storage capacity (MB)
 float32 disk_capacity
-
-
-
