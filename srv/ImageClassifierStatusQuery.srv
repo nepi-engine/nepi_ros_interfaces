@@ -8,3 +8,4 @@ string CLASSIFIER_STATE_RUNNING=Running
 string selected_img_topic
 string selected_classifier
 string classifier_state
+float32 detection_threshold
