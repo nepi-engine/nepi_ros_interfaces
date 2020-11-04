@@ -73,6 +73,7 @@ add_message_files(
     TriggerIndexSettings.msg
     OotStatus.msg
     ClassifierSelection.msg
+    Heading.msg
 )
 
 ## Generate services in the 'srv' folder
