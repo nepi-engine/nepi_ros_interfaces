@@ -74,6 +74,8 @@ add_message_files(
     OotStatus.msg
     ClassifierSelection.msg
     Heading.msg
+    NEPIStatus.msg
+    StringArray.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -92,6 +94,7 @@ add_service_files(
     ImageClassifierListQuery.srv
     ImageClassifierStatusQuery.srv
     DataProductQuery.srv
+    NEPIStatusQuery.srv
 )
 
 ## Generate actions in the 'action' folder
