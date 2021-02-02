@@ -21,5 +21,5 @@ uint32 lb_max_data_queue_size_mb        # Max megabytes allowed in LB folders (q
 bool hb_enabled                         # HB channels enabled/disabled
 bool hb_auto_data_offloading_enabled    # Data offloading enabled/disabled
 time hb_last_connection_time            # Last successful HB connection time
-uint32 hb_do_transfered_mb              # Total HB device-originated megabytes sent
-uint32 hb_dt_transfered_mb              # Total HB device-terminated megabytes received
+float32 hb_do_transfered_mb              # Total HB device-originated megabytes sent
+float32 hb_dt_transfered_mb              # Total HB device-terminated megabytes received
