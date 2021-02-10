@@ -6,6 +6,7 @@ string nuid                             # Fixed/non-configurable identifier for 
 string alias                            # Configurable alias for queried device's NEPI instance
 bool enabled                            # NEPI Edge device enabled/disabled
 uint32 auto_attempts_per_hour           # Automatic connection attempts per hour. If 0, auto connection is disabled
+bool log_storage_enabled                # Automatic (time-stamped) storage of NEPI logs in HB data folder enabled/disabled
 
 # Low-bandwidth (LB) state & status
 bool lb_enabled                         # LB channels enabled/disabled
