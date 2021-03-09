@@ -3,3 +3,4 @@
 ---
 # Array of CIDR-formatted ip addresses
 string[] ip_addrs
+bool dhcp_enabled
