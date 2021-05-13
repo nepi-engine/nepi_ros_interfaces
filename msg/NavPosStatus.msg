@@ -13,4 +13,5 @@ time last_imu
 # Rate (Hz) of IMU updates
 float32 imu_rate
 
-
+# Transform from src to output (includes names of source and target frame ID)
+geometry_msgs/TransformStamped transform
