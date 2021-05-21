@@ -76,6 +76,7 @@ add_message_files(
     Heading.msg
     NEPIStatus.msg
     StringArray.msg
+    Offset.msg
 )
 
 ## Generate services in the 'srv' folder
