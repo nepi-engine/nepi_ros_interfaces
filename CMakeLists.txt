@@ -97,6 +97,7 @@ add_service_files(
     ImageClassifierStatusQuery.srv
     DataProductQuery.srv
     NEPIStatusQuery.srv
+    BandwidthUsageQuery.srv
 )
 
 ## Generate actions in the 'action' folder
