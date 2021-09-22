@@ -78,6 +78,7 @@ add_message_files(
     StringArray.msg
     Offset.msg
     RUISettings.msg
+    SonarFieldOfView.msg
 )
 
 ## Generate services in the 'srv' folder
