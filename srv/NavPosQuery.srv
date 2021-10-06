@@ -5,7 +5,7 @@
 # is requested. A query_time of 0 signifies that the most current solution is
 # requested. The query_time is only valid if it specifies a time within the last
 # TBD seconds.
-time query_time
+builtin_interfaces/Time query_time
 
 ---
 

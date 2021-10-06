@@ -5,7 +5,7 @@
 # be optained through the system_defs service.
 
 # Current system time (ROS time)
-time sys_time
+builtin_interfaces/Time sys_time
 
 # Current temperature(s) (C)
 float32[] temperatures
@@ -24,5 +24,3 @@ StampedString[] info_strings
 
 # Warning flags
 WarningFlags warnings
-
-

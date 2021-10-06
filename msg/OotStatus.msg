@@ -3,10 +3,10 @@
 # SystemStatus.msg.
 
 # These fields are taken directly from the NEPI-Bot ICD.
-time timestamp
+builtin_interfaces/Time timestamp
 string serial_num
 string sw_rev
-time navsat_fix_time
+builtin_interfaces/Time navsat_fix_time
 float32 latitude
 float32 longitude
 float32 heading
