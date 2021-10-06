@@ -5,4 +5,4 @@
 string NO_TRIGGER="None"
 
 # Array of trig_names indexed by their trigger index (i.e., bit offset in trig mask)
-string[32] trig_names
+string[] trig_names
