@@ -126,7 +126,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.009999999776482582
       Style: Flat Squares
-      Topic: /numurus/3dx/device_0/3dx_device/stereo_cam_mgr/pointcloud_3dx
+      Topic: /numurus/dev_3dx/device_0/sensor_3dx/stereo_cam_mgr/pointcloud_3dx
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
@@ -156,7 +156,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.009999999776482582
       Style: Flat Squares
-      Topic: /numurus/3dx/device_0/3dx_device/stereo_cam_driver/mapping/fused_cloud
+      Topic: /numurus/dev_3dx/device_0/sensor_3dx/stereo_cam_driver/mapping/fused_cloud
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
@@ -192,7 +192,7 @@ Visualization Manager:
         Shaft Length: 1
         Shaft Radius: 0.05000000074505806
         Value: Arrow
-      Topic: /numurus/3dx/device_0/3dx_device/stereo_cam_driver/odom
+      Topic: /numurus/dev_3dx/device_0/sensor_3dx/stereo_cam_driver/odom
       Unreliable: false
       Value: false
     - Alpha: 1
@@ -215,12 +215,12 @@ Visualization Manager:
       Radius: 0.029999999329447746
       Shaft Diameter: 0.10000000149011612
       Shaft Length: 0.10000000149011612
-      Topic: /numurus/3dx/device_0/3dx_device/stereo_cam_driver/path_odom
+      Topic: /numurus/dev_3dx/device_0/sensor_3dx/stereo_cam_driver/path_odom
       Unreliable: false
       Value: false
     - Class: rviz/Image
       Enabled: true
-      Image Topic: /numurus/3dx/device_0/3dx_device/stereo_cam_mgr/img_0/image_raw
+      Image Topic: /numurus/dev_3dx/device_0/sensor_3dx/stereo_cam_mgr/img_0/image_raw
       Max Value: 1
       Median window: 5
       Min Value: 0
@@ -232,7 +232,7 @@ Visualization Manager:
       Value: true
     - Class: rviz/Image
       Enabled: true
-      Image Topic: /numurus/3dx/device_0/3dx_device/stereo_cam_mgr/img_1/image_raw
+      Image Topic: /numurus/dev_3dx/device_0/sensor_3dx/stereo_cam_mgr/img_1/image_raw
       Max Value: 1
       Median window: 5
       Min Value: 0
@@ -244,7 +244,7 @@ Visualization Manager:
       Value: true
     - Class: rviz/Image
       Enabled: true
-      Image Topic: /numurus/3dx/device_0/3dx_device/stereo_cam_mgr/alt/image_raw
+      Image Topic: /numurus/dev_3dx/device_0/sensor_3dx/stereo_cam_mgr/alt/image_raw
       Max Value: 1
       Median window: 5
       Min Value: 0
@@ -295,7 +295,7 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
       Name: 3DX Model
-      Robot Description: /numurus/3dx/device_0/sensor_3dx_description
+      Robot Description: /numurus/dev_3dx/device_0/sensor_3dx_description
       TF Prefix: ""
       Update Interval: 0.10000000149011612
       Value: true

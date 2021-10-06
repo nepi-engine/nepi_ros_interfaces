@@ -18,7 +18,7 @@ string[] lb_available_data_sources      # List of available data topics and serv
 string[] lb_selected_data_sources       # List of selected data topics and services for LB data channel
 uint32 lb_do_msg_count                  # LB device-originated message count (status, data, etc.)
 uint32 lb_dt_msg_count                  # LB device-terminated message count (configuration, etc.)
-float32 lb_data_queue_size_KB            # Current Kilobytes in LB folders (queued for processing on next BOT execution)
+float32 lb_data_queue_size_kb            # Current Kilobytes in LB folders (queued for processing on next BOT execution)
 
 # High-bandwidth (HB) state & status
 bool hb_enabled                         # HB channels enabled/disabled
@@ -26,4 +26,4 @@ bool hb_auto_data_offloading_enabled    # Data offloading enabled/disabled
 time hb_last_connection_time            # Last successful HB connection time
 float32 hb_do_transfered_mb              # Total HB device-originated megabytes sent
 float32 hb_dt_transfered_mb              # Total HB device-terminated megabytes received
-float32 hb_data_queue_size_MB            # Current Megabytes in HB data offload folders (queued for transmit on next BOT HB connection)
+float32 hb_data_queue_size_mb            # Current Megabytes in HB data offload folders (queued for transmit on next BOT HB connection)
