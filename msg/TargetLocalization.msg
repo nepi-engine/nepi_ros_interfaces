@@ -1,5 +1,8 @@
 # This message provides geometric information for a single localized target
 
+# Constants to indicate unset fields
+float64 FIELD_UNSET=-999.0
+
 # Target Identification
 int32 id
 string name
