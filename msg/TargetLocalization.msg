@@ -1,12 +1,17 @@
 # This message provides geometric information for a single localized target
 
 # Constants to indicate unset fields
-float64 FIELD_UNSET=-999.0
+int32 INT_FIELD_UNSET=-1
+float64 FLOAT_FIELD_UNSET=-999.0
 
-# Target Identification
-int32 id
+# Target Classification
+int32 type
 string name
-float64 confidence
+float64 type_confidence
+
+# Target Tracking
+int32 tracking_id
+float64 tracking_confidence
 
 # 3D position
 float64 range_m
