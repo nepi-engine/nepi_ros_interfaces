@@ -36,3 +36,12 @@ AutoManualSelection3DX filter_settings
 # The filter_settings field indicates whether the generic intensity is adjustable, and the (0.0 - 1.0) value
 # to apply.
 AutoManualSelection3DX intensity_settings
+
+# Array of flags - length must stay coordinated with definitions below
+bool[3] flags
+
+### Flags Index Definitions ###
+uint32 DEVICE_STARTING          =0
+uint32 STARTUP_ERROR				    =1
+uint32 DATA_ACQUISITION_ERROR   =2
+uint32 DATA_PROCESSING_ERROR    =3
