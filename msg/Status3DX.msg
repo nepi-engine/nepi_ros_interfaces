@@ -9,7 +9,7 @@ string display_name
 # The pause_enable field provides the current run/pause state of the node_3dx
 bool pause_enable
 
-# The simulate_data field indicates whether data is currently being simulated in software, or generated 
+# The simulate_data field indicates whether data is currently being simulated in software, or generated
 # by an actual sensor
 bool simulate_data
 
@@ -17,25 +17,31 @@ bool simulate_data
 # Each range is expressed as a decimal multiplier on the sensor's max range (0.0 - 1.0)
 Range3DX range
 
-# The angle field provides the angular offset and total angle (in) that order, as currently configured for 
+# The angle field provides the angular offset and total angle (in) that order, as currently configured for
 # the node_3dx. These are each expressed as a decimal multiplier on the sensor's native angular range
 Angle3DX angle
 
-# The resolution_settings field indicates whether the generic resolution adjustment is in auto or 
+# The resolution_settings field indicates whether the generic resolution adjustment is in auto or
 # manual mode, and the (0.0 - 1.0) value to apply
 AutoManualSelection3DX resolution_settings
 
-# The gain_settings field indicates whether the generic gain is adjustable, and the (0.0 - 1.0) value 
+# The gain_settings field indicates whether the generic gain is adjustable, and the (0.0 - 1.0) value
 # to apply.
 AutoManualSelection3DX gain_settings
 
-# The filter_settings field indicates whether the generic filter is adjustable, and the (0.0 - 1.0) value 
+# The filter_settings field indicates whether the generic filter is adjustable, and the (0.0 - 1.0) value
 # to apply.
 AutoManualSelection3DX filter_settings
 
 # The filter_settings field indicates whether the generic intensity is adjustable, and the (0.0 - 1.0) value
 # to apply.
 AutoManualSelection3DX intensity_settings
+
+# The transfer frame into which 3D data (pointclouds) are transformed for the pointcloud_3dx topic
+string frame_3d
+
+# Whether or not stitched clouds are enabled on this sensor
+bool stitched_cloud_enabled
 
 # Array of flags - length must stay coordinated with definitions below
 bool[3] flags
