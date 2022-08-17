@@ -33,7 +33,11 @@ AutoManualSelection3DX gain_settings
 # to apply.
 AutoManualSelection3DX filter_settings
 
-# The filter_settings field indicates whether the generic intensity is adjustable, and the (0.0 - 1.0) value
+# The enhancement_settings field indicates whether the generic enhancement is adjustable, and the (0.0 - 1.0) value
+# to apply.
+AutoManualSelection3DX enhancement_settings
+
+# The intensity_settings field indicates whether the generic intensity is adjustable, and the (0.0 - 1.0) value
 # to apply.
 AutoManualSelection3DX intensity_settings
 
