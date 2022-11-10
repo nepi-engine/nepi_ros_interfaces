@@ -1,0 +1,7 @@
+# This service definition provides the current wifi settings
+
+---
+bool has_wifi
+bool wifi_ap_enabled
+string wifi_ap_name
+string wifi_ap_password

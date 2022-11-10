@@ -97,6 +97,7 @@ add_service_files(
     NavPosStatusQuery.srv
     TimeStatusQuery.srv
     IPAddrQuery.srv
+    WifiQuery.srv
     OpEnvironmentQuery.srv
     ImageClassifierListQuery.srv
     ImageClassifierStatusQuery.srv
