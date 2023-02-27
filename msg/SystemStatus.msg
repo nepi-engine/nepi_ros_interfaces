@@ -2,7 +2,7 @@
 # It includes administrative status, warnings, internal temperatures, etc.
 
 # Interpretation of many of the fields is provided by the SystemDefs message type that can
-# be optained through the system_defs service.
+# be obtained through the system_defs service.
 
 # Current system time (ROS time)
 time sys_time
@@ -25,4 +25,11 @@ StampedString[] info_strings
 # Warning flags
 WarningFlags warnings
 
+# System image update status and progress
+string sys_img_update_status
+float32 sys_img_update_progress
 
+# System backup/archive status and progress
+string sys_img_archive_status
+float32 sys_img_archive_progress
+string sys_img_archive_filename

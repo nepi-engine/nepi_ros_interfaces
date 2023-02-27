@@ -104,6 +104,7 @@ add_service_files(
     DataProductQuery.srv
     NEPIStatusQuery.srv
     BandwidthUsageQuery.srv
+    SystemSoftwareStatusQuery.srv
 )
 
 ## Generate actions in the 'action' folder
