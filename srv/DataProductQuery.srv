@@ -2,4 +2,4 @@
 
 ---
 # Array of data product names
-num_sdk_msgs/SaveDataRate[] data_products
+nepi_ros_interfaces/SaveDataRate[] data_products

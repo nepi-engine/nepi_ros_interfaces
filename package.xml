@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>num_sdk_msgs</name>
+  <name>nepi_ros_interfaces</name>
   <version>0.0.0</version>
-  <description>The Numurus SDK external API package</description>
+  <description>NEPI Edge ROS service, message, and utility config files</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->

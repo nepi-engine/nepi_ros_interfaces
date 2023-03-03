@@ -14,4 +14,4 @@ string input_img_topic
 Header input_img_header
 
 # Array of individual localized targets
-num_sdk_msgs/TargetLocalization[] targets
+nepi_ros_interfaces/TargetLocalization[] targets

@@ -2,4 +2,4 @@
 
 uint32 trig_val
 ---
-num_sdk_msgs/TriggerStatus status
+nepi_ros_interfaces/TriggerStatus status
