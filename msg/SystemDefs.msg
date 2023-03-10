@@ -10,6 +10,9 @@ string firmware_version
 # Device serial number
 string device_sn
 
+# Device type
+string device_type
+
 # Array of names that correspond to values in SystemStatus.temperatures
 string[] temperature_sensor_names
 
