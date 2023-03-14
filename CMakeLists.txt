@@ -74,7 +74,7 @@ add_message_files(
     OotStatus.msg
     ClassifierSelection.msg
     Heading.msg
-    NEPIStatus.msg
+    NEPILinkStatus.msg
     StringArray.msg
     Offset.msg
     RUISettings.msg
@@ -100,7 +100,7 @@ add_service_files(
     ImageClassifierListQuery.srv
     ImageClassifierStatusQuery.srv
     DataProductQuery.srv
-    NEPIStatusQuery.srv
+    NEPILinkStatusQuery.srv
     BandwidthUsageQuery.srv
     SystemSoftwareStatusQuery.srv
 )

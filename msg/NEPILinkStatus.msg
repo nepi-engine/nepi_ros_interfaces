@@ -1,5 +1,5 @@
-# This message provides the current NEPI Edge state and status for a queried device,
-# including fixed and configurable NEPI Edge instance identifiers.
+# This message provides the current NEPI Edge Link state and status for a queried device,
+# including fixed and configurable NEPI Edge Link instance identifiers.
 
 # Top-level state & status
 string nuid                             # Fixed/non-configurable identifier for queried device's NEPI instance
