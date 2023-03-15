@@ -10,4 +10,4 @@ time query_time
 ---
 
 # The nav/pos state and status
-NavPos nav_pos
+NavPose nav_pose

@@ -2,4 +2,4 @@
 # Navigation and Positioning subsystems.
 
 ---
-NavPosStatus status
+NavPoseStatus status

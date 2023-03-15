@@ -62,13 +62,13 @@ add_message_files(
     HwTrigOutCfg.msg
     TestPatternCfg.msg
     PeriodicSwTrig.msg
-    NavPos.msg
+    NavPose.msg
     StampedString.msg
     SystemStatus.msg
     SystemDefs.msg
     TriggerStatus.msg
     WarningFlags.msg
-    NavPosStatus.msg
+    NavPoseStatus.msg
     TimeStatus.msg
     TriggerIndexSettings.msg
     OotStatus.msg
@@ -91,8 +91,8 @@ add_service_files(
     SystemDefsQuery.srv
     TriggerStatusQuery.srv
     TriggerDefs.srv
-    NavPosQuery.srv
-    NavPosStatusQuery.srv
+    NavPoseQuery.srv
+    NavPoseStatusQuery.srv
     TimeStatusQuery.srv
     IPAddrQuery.srv
     WifiQuery.srv
