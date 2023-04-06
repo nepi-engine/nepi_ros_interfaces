@@ -15,7 +15,7 @@ bool simulate_data
 
 # The range field provides the min and max range in that order, as currently configured for the node_3dx
 # Each range is expressed as a decimal multiplier on the sensor's max range (0.0 - 1.0)
-Range3DX range
+RangeWindow range
 
 # The angle field provides the angular offset and total angle (in) that order, as currently configured for
 # the node_3dx. These are each expressed as a decimal multiplier on the sensor's native angular range

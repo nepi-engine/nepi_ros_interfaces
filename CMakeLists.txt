@@ -54,7 +54,7 @@ add_message_files(
     SaveDataStatus.msg
     SaveDataRate.msg
     DatafileCtrl3DX.msg
-    Range3DX.msg
+    RangeWindow.msg
     Angle3DX.msg
     AutoManualSelection3DX.msg
     Status3DX.msg
