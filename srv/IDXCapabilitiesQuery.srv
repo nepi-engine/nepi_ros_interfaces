@@ -1,0 +1,18 @@
+# This service definition provides the capabilities report for a NEPI IDX sensor
+
+---
+# IDX Generic Parameters
+bool adjustable_resolution
+bool adjustable_framerate
+bool adjustable_contrast
+bool adjustable_brightness
+bool adjustable_thresholding
+bool adjustable_range
+
+# IDX Generic Data Outputs
+bool has_color_2d_image
+bool has_bw_2d_image
+bool has_depth_map
+bool has_depth_image
+bool has_pointcloud
+bool has_pointcloud_image

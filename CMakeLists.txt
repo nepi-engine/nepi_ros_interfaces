@@ -58,6 +58,7 @@ add_message_files(
     Angle3DX.msg
     AutoManualSelection3DX.msg
     Status3DX.msg
+    IDXStatus.msg
     HwTrigInCfg.msg
     HwTrigOutCfg.msg
     TestPatternCfg.msg
@@ -103,6 +104,7 @@ add_service_files(
     NEPILinkStatusQuery.srv
     BandwidthUsageQuery.srv
     SystemSoftwareStatusQuery.srv
+    IDXCapabilitiesQuery.srv
 )
 
 ## Generate actions in the 'action' folder
