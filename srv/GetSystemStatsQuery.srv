@@ -1,0 +1,10 @@
+#Query Automation Manager system status
+string script
+---
+float64 cpu_percent
+int64 memory_usage
+int64 swap_info
+int64 disk_usage
+int64 file_size
+int32 completed_runs
+int32 stopped_manually

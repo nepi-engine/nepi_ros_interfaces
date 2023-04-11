@@ -105,6 +105,13 @@ add_service_files(
     BandwidthUsageQuery.srv
     SystemSoftwareStatusQuery.srv
     IDXCapabilitiesQuery.srv
+    GetScriptsQuery.srv
+    GetRunningScriptsQuery.srv
+    GetScriptStatusQuery.srv
+    LaunchScript.srv
+    SetScriptEnabled.srv
+    StopScript.srv
+    GetSystemStatsQuery.srv
 )
 
 ## Generate actions in the 'action' folder
