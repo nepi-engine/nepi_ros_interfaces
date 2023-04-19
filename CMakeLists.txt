@@ -112,6 +112,7 @@ add_service_files(
     SetScriptEnabled.srv
     StopScript.srv
     GetSystemStatsQuery.srv
+    SystemStorageFolderQuery.srv
 )
 
 ## Generate actions in the 'action' folder
