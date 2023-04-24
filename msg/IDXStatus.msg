@@ -7,7 +7,7 @@
 uint8 resolution_mode
 
 # The frame_rate_mode field indicates the generic frame rate setting for the device
-uint8 frame_rate_mode
+uint8 framerate_mode
 
 # The contrast field indicates the 0.0 - 1.0 contrast setting of the device
 float32 contrast
