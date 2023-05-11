@@ -82,6 +82,8 @@ add_message_files(
     SonarFieldOfView.msg
     TargetLocalization.msg
     TargetLocalizationScene.msg
+    ImageMuxInput.msg
+    ImageMuxSequence.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -113,6 +115,7 @@ add_service_files(
     StopScript.srv
     GetSystemStatsQuery.srv
     SystemStorageFolderQuery.srv
+    ImageMuxSequenceQuery.srv
 )
 
 ## Generate actions in the 'action' folder
