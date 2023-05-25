@@ -84,6 +84,8 @@ add_message_files(
     TargetLocalizationScene.msg
     ImageMuxInput.msg
     ImageMuxSequence.msg
+    AutoStartEnabled.msg
+
 )
 
 ## Generate services in the 'srv' folder
