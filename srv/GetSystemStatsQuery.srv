@@ -10,3 +10,4 @@ int32 started_runs
 int32 completed_runs
 int32 error_runs
 int32 stopped_manually
+bool auto_start_enabled
