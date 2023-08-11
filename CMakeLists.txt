@@ -85,7 +85,7 @@ add_message_files(
     ImageMuxInput.msg
     ImageMuxSequence.msg
     AutoStartEnabled.msg
-
+    WifiCredentials.msg
 )
 
 ## Generate services in the 'srv' folder
