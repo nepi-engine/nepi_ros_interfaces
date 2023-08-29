@@ -31,4 +31,8 @@ float32 heading_rate
 # Transform from src to output (includes names of source and target frame ID)
 geometry_msgs/TransformStamped transform
 
+# Rotational adjsutment applied just to heading
 float32 heading_offset
+
+# GPS clock sync. is enabled
+bool gps_clock_sync_enabled
