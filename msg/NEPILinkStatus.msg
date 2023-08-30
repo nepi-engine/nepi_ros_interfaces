@@ -4,6 +4,7 @@
 # Top-level state & status
 string nuid                             # Fixed/non-configurable identifier for queried device's NEPI instance
 string alias                            # Configurable alias for queried device's NEPI instance
+string public_ssh_key                   # Public SSH Key to be added to portal when commissioning this device
 bool enabled                            # NEPI Edge device enabled/disabled
 bool bot_running                        # True if bot is currently running (processing data, connecting to server)
 float32 auto_attempts_per_hour           # Automatic connection attempts per hour. If 0, auto connection is disabled
