@@ -86,6 +86,9 @@ add_message_files(
     ImageMuxSequence.msg
     AutoStartEnabled.msg
     WifiCredentials.msg
+    PanTiltPosition.msg
+    PanTiltLimits.msg
+    PanTiltStatus.msg
 )
 
 ## Generate services in the 'srv' folder
