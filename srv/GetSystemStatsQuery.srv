@@ -11,3 +11,4 @@ int32 completed_runs
 int32 error_runs
 int32 stopped_manually
 bool auto_start_enabled
+int64 log_size_bytes
