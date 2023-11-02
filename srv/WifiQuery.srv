@@ -10,3 +10,4 @@ bool wifi_client_connected
 string wifi_client_ssid
 string wifi_client_passphrase
 string[] available_networks
+bool internet_connected
