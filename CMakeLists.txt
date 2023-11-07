@@ -77,6 +77,7 @@ add_message_files(
     Heading.msg
     NEPILinkStatus.msg
     StringArray.msg
+    StringEnable.msg
     Offset.msg
     RUISettings.msg
     SonarFieldOfView.msg
