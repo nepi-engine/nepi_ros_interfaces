@@ -266,12 +266,6 @@ install(DIRECTORY include/${PROJECT_NAME}/
 #   PATTERN ".svn" EXCLUDE
 # )
 
-## Mark other files for installation (e.g. launch and bag files, etc.)
-install(DIRECTORY
-  urdf
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
-)
-
 #############
 ## Testing ##
 #############
