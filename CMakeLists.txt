@@ -114,6 +114,8 @@ add_message_files(
     PanTiltPosition.msg
     PanTiltLimits.msg
     PanTiltStatus.msg
+    SingleAxisTimedMove.msg
+    AbsolutePanTiltWaypoint.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -146,6 +148,7 @@ add_service_files(
     GetSystemStatsQuery.srv
     SystemStorageFolderQuery.srv
     ImageMuxSequenceQuery.srv
+    PTXCapabilitiesQuery.srv
 )
 
 ## Generate actions in the 'action' folder

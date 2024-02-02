@@ -1,0 +1,7 @@
+# This service definition provides the capabilities report for a NEPI PTX (pan/tilt) actuator
+
+---
+bool adjustable_speed
+bool absolute_positioning
+bool homing
+bool waypoints
