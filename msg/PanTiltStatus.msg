@@ -5,6 +5,9 @@ string  hw_version
 string  sw_version
 float32 speed_ratio
 
+bool reverse_yaw_control
+bool reverse_pitch_control
+
 float32 yaw_home_pos_deg
 float32 yaw_goal_deg
 float32 yaw_now_deg
