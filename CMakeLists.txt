@@ -116,6 +116,8 @@ add_message_files(
     PanTiltStatus.msg
     SingleAxisTimedMove.msg
     AbsolutePanTiltWaypoint.msg
+    OnvifDeviceCfg.msg
+    OnvifDeviceStatus.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -149,6 +151,9 @@ add_service_files(
     SystemStorageFolderQuery.srv
     ImageMuxSequenceQuery.srv
     PTXCapabilitiesQuery.srv
+    OnvifDeviceListQuery.srv
+    OnvifDeviceCfgUpdate.srv
+    OnvifDeviceCfgDelete.srv
 )
 
 ## Generate actions in the 'action' folder
