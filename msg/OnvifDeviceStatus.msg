@@ -4,6 +4,12 @@
 # Unique device identifier
 string uuid
 
+# Device reported manufacturer info
+string manufacturer
+string model
+string firmware_version
+string hardware_id
+
 # Network values
 string host
 uint32 port
