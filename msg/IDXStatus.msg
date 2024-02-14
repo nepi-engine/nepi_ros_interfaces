@@ -3,6 +3,14 @@
 # generic - each IDX sensor defines what they mean with regards to its specific data formats. They provide
 # a minimal set of tweaks to reduce complexity for operators.
 
+# Device Identifiers
+string serial_num
+string hw_version
+string sw_version
+
+# In standby or not
+bool standby
+
 # The resolution_mode field indicates the generic resolution setting for the device
 uint8 resolution_mode
 

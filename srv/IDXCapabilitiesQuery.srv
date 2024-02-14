@@ -1,6 +1,9 @@
 # This service definition provides the capabilities report for a NEPI IDX sensor
 
 ---
+# NEX Generic Parameters
+bool has_standby_mode
+
 # IDX Generic Parameters
 bool adjustable_resolution
 bool adjustable_framerate
