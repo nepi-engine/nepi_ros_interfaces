@@ -1,0 +1,7 @@
+# This service definition provides the capabilities report for a NEPI RBX driver node
+
+---
+bool has_standby_mode
+string[] state_options
+string[] mode_options
+string[] action_options

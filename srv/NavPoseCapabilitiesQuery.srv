@@ -1,0 +1,6 @@
+# This service definition provides the navpose capabilities report for a general NEPI NEX driver node
+
+---
+bool has_gps
+bool has_orientation
+bool has_heading

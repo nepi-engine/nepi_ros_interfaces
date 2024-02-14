@@ -1,0 +1,9 @@
+# This service definition provides the capabilities report for a NEPI LSX driver node
+
+---
+bool has_standby_mode
+bool has_intensity_control
+bool has_sw_strobe
+bool has_hw_strobe
+bool reports_temperature
+bool reports_power

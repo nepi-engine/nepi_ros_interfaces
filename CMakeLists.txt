@@ -118,6 +118,11 @@ add_message_files(
     AbsolutePanTiltWaypoint.msg
     OnvifDeviceCfg.msg
     OnvifDeviceStatus.msg
+    AxisControls.msg
+    RBXErrorBounds.msg
+    RBXGotoErrors.msg
+    RBXStatus.msg
+    LSXStatus.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -154,6 +159,9 @@ add_service_files(
     OnvifDeviceListQuery.srv
     OnvifDeviceCfgUpdate.srv
     OnvifDeviceCfgDelete.srv
+    RBXCapabilitiesQuery.srv
+    NavPoseCapabilitiesQuery.srv
+    LSXCapabilitiesQuery.srv
 )
 
 ## Generate actions in the 'action' folder
