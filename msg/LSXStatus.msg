@@ -12,15 +12,9 @@ bool standby
 # Luminance intensity (0.0-1.0 percent)
 float32 intensity
 
-# Strobe rate
-float32 strobe_rate_hz
+# Strobe enable
+bool strobe_enable
 
-# Avg strobe rate over last 60 seconds
-float32 avg_strobe_rate_hz
-
-# Average temp in degrees C over last 60 seconds
-uint8 avg_temp_c
-
-# Average power usage in watts over last 60 seconds
-float32 avg_power_w	
+# Device reported temp in degrees C
+uint8 temp_c	
 
