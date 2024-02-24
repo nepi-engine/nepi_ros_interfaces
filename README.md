@@ -24,7 +24,7 @@ Contact Information:
 -->
 # nepi_ros_interfaces
 
-This repository contains the public API for the NEPI ROS Interface. All NEPI-custom message and service definitions that are exposed to external applications are contained in this repo, along with ROS support files (e.g., rviz-config files),
+This repository contains the public API for the NEPI ROS Interface. All NEPI-custom message and service definitions that are exposed to external applications are contained in this repo, along with ROS support files (e.g., rviz-config files).
 
 ### Build and Install ###
 This repository is included as a submodule of _nepi_base_ws_ and is built for NEPI devices using the build instructions contained in that project's top-level README.
