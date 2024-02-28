@@ -48,6 +48,10 @@ RBXGotoErrors errors_current
 # Updated after completion or timeout of last command control action
 RBXGotoErrors errors_prev
 
+# Timeout condition of last command control (did not meet movement error bounds before cmd_timeout time)
+# Updated after ready status goes from busy to ready value
+bool cmd_timeout
+
 # Success or failure of last command control (met movement error bounds before cmd_timeout time)
 # Updated after ready status goes from busy to ready value
 bool cmd_success
