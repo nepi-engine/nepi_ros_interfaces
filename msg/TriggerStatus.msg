@@ -16,4 +16,4 @@ uint32 hw_in_trig_val
 float32 hw_in_trig_rate
 
 # Most recent execution time for this trigger. 0 indicates the trigger has never fired.
-time last_execution_time
+builtin_interfaces/Time last_execution_time

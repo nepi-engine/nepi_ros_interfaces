@@ -14,7 +14,7 @@ bool log_storage_enabled                # Automatic (time-stamped) storage of NE
 bool lb_enabled                         # LB channels enabled/disabled
 float32 lb_data_sets_per_hour             # Number of scheduled LB data collections per hour.
 string[] lb_comms_types                 # Priority-ordered list of enabled LB communications types
-time lb_last_connection_time            # Last successful LB connection time
+builtin_interfaces/Time lb_last_connection_time            # Last successful LB connection time
 string[] lb_available_data_sources      # List of available data topics and services for LB data channel
 string[] lb_selected_data_sources       # List of selected data topics and services for LB data channel
 uint32 lb_do_msg_count                  # LB device-originated message count (status, data, etc.)
@@ -24,7 +24,7 @@ float32 lb_data_queue_size_kb            # Current Kilobytes in LB folders (queu
 # High-bandwidth (HB) state & status
 bool hb_enabled                         # HB channels enabled/disabled
 bool hb_auto_data_offloading_enabled    # Data offloading enabled/disabled
-time hb_last_connection_time            # Last successful HB connection time
+builtin_interfaces/Time hb_last_connection_time            # Last successful HB connection time
 float32 hb_do_transfered_mb              # Total HB device-originated megabytes sent
 float32 hb_dt_transfered_mb              # Total HB device-terminated megabytes received
 float32 hb_data_queue_size_mb            # Current Megabytes in HB data offload folders (queued for transmit on next BOT HB connection)

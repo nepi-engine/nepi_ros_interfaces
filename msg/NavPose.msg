@@ -2,7 +2,7 @@
 # subsystem.
 
 # Time for which this nav. solution is valid
-time timestamp
+builtin_interfaces/Time timestamp
 
 # GPS-based positioning
 sensor_msgs/NavSatFix fix

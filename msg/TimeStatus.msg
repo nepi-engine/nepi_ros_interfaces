@@ -2,10 +2,10 @@
 # including status about synchronization sources
 
 # Current system clock time
-time current_time
+builtin_interfaces/Time current_time
 
 # System clock at time of last PPS receipt
-time last_pps
+builtin_interfaces/Time last_pps
 
 # Servers
 string[] ntp_sources
@@ -20,5 +20,5 @@ string[] last_ntp_sync
 string[] current_offset
 
 # Last set_time (hard set from external host)
-time last_set_time
+builtin_interfaces/Time last_set_time
 

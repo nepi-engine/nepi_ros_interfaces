@@ -1,5 +1,5 @@
 ## pan tilt status msg
-Header  header
+std_msgs/Header  header
 string  serial_num
 string  hw_version
 string  sw_version
