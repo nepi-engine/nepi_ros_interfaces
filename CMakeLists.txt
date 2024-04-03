@@ -143,6 +143,7 @@ add_service_files(
     OnvifDeviceListQuery.srv
     OnvifDeviceCfgUpdate.srv
     OnvifDeviceCfgDelete.srv
+    OnvifDeviceDriverListQuery.srv
     RBXCapabilitiesQuery.srv
     NavPoseCapabilitiesQuery.srv
     LSXCapabilitiesQuery.srv

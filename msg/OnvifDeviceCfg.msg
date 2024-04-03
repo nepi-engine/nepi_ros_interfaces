@@ -15,3 +15,7 @@ string node_base_name
 bool idx_enabled
 bool ptx_enabled
 
+# Driver IDs
+string idx_driver
+string ptx_driver
+
