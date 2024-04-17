@@ -30,6 +30,10 @@ float32 thresholding
 # Each range is expressed as a multiplier on the sensor's max range (0.0 - 1.0)
 RangeWindow range_window
 
+# Following provide the range limits in meters for the device (if available)
+float32 min_range_m
+float32 max_range_m
+
 # The transfer frame into which 3D data (pointclouds) are transformed for the pointcloud data topic
 string frame_3d
 
