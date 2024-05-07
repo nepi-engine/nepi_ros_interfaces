@@ -17,6 +17,13 @@ uint8 resolution_mode
 # The frame_rate_mode field indicates the generic frame rate setting for the device
 uint8 framerate_mode
 
+
+# Enable or Disable IDX controls
+bool idx_controls
+
+# Enable or Disable IDX auto adjusting brightness, contrast, and threshold control
+bool auto
+
 # The contrast field indicates the 0.0 - 1.0 contrast setting of the device
 float32 contrast
 

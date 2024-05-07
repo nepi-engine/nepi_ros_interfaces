@@ -11,6 +11,7 @@ bool adjustable_contrast
 bool adjustable_brightness
 bool adjustable_thresholding
 bool adjustable_range
+bool has_auto_adjustment
 
 # IDX Generic Data Outputs
 bool has_color_2d_image
