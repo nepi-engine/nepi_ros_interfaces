@@ -19,10 +19,10 @@ uint8 framerate_mode
 
 
 # Enable or Disable IDX controls
-bool idx_controls
+bool controls_enable
 
 # Enable or Disable IDX auto adjusting brightness, contrast, and threshold control
-bool auto
+bool auto_adjust
 
 # The contrast field indicates the 0.0 - 1.0 contrast setting of the device
 float32 contrast
@@ -43,4 +43,26 @@ float32 max_range_m
 
 # The transfer frame into which 3D data (pointclouds) are transformed for the pointcloud data topic
 string frame_3d
+
+# NEPI Settings State Message
+# Settings are provided as a string of a string list 
+# String list format ["setting_1_name_string", "type_string", "value_as_string", "setting_2_name_string", ...)
+# supported type_strings => "Descrite", "String", "Bool", "Int", "Float"
+# boolean and number value strings can be converted to usable values using python's eval function => eval(value_string)
+# example python settings string:
+# cap_settings_list = ["TestDiscrete","Discrete","Option_1",
+#  			"TestString","String","InitString",
+#  			"TestBool","Bool","False",
+#  			"TestInt","Int","5",
+#  			"TestFloat","Float","3.5"]
+#
+# Convert string list to python rospy String msg => cap_settings_msg = str(cap_settings_list)
+# Convert String msg to string list => cap_settings_list = eval(cap_settings_msg.data)
+#
+# NOTE: Settings state update topics accept a similiar string of string lists allowing updating one or all settings with a a single update message
+#
+# NEPI's nepi_ros.py module provides a number of helper functions for working with NEPI Settings' msg and lists
+#
+#
+string settings_states
 

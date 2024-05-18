@@ -20,3 +20,22 @@ bool has_depth_map
 bool has_depth_image
 bool has_pointcloud
 bool has_pointcloud_image
+
+# NEPI Settings Options
+# Settings capabilities are provided as a string of a string list 
+# String list format ["setting_1_name_string", "type_string", "option_1_string", "option_2_string", ... "option_N_string", "setting_2_name_string", ...)
+# supported type_strings => "Descrite", "String", "Bool", "Int", "Float"
+# supported option strings => none, min/max limits, discrete options, and anything else your process supports
+#
+# example python settings string:
+# cap_settings_list = ["TestDiscrete","Discrete","Option_1","Option_2","Option_3","Option_4",
+#  			"TestString","String",
+#  			"TestBool","Bool",
+#  			"TestInt","Int","0","100",
+#  			"TestFloat","Float"]
+#
+# Convert string list to python rospy String msg => cap_settings_msg = str(cap_settings_list)
+#
+# NEPI's nepi_ros.py module provides a number of helper functions for working with NEPI Settings' msg and lists
+#
+string settings_options
