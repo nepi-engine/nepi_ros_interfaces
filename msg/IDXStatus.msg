@@ -41,6 +41,12 @@ RangeWindow range_window
 float32 min_range_m
 float32 max_range_m
 
+# The zoom field indicates the 0.0 - 1.0 zoom ratio for pointcloud image setting of the device
+float32 zoom
+
+# The roate field indicates the 0.0 - 1.0 rotate ratio for pointcloud image setting of the device
+float32 rotate
+
 # The transfer frame into which 3D data (pointclouds) are transformed for the pointcloud data topic
 string frame_3d
 
@@ -48,21 +54,23 @@ string frame_3d
 # Settings are provided as a string of a string list 
 # String list format ["setting_1_name_string", "type_string", "value_as_string", "setting_2_name_string", ...)
 # supported type_strings => "Descrite", "String", "Bool", "Int", "Float"
-# boolean and number value strings can be converted to usable values using python's eval function => eval(value_string)
 # example python settings string:
-# cap_settings_list = ["TestDiscrete","Discrete","Option_1",
+# SETTINGS_STATES = ["TestDiscrete","Discrete","Option_1",
 #  			"TestString","String","InitString",
 #  			"TestBool","Bool","False",
 #  			"TestInt","Int","5",
 #  			"TestFloat","Float","3.5"]
-#
-# Convert string list to python rospy String msg => cap_settings_msg = str(cap_settings_list)
-# Convert String msg to string list => cap_settings_list = eval(cap_settings_msg.data)
-#
-# NOTE: Settings state update topics accept a similiar string of string lists allowing updating one or all settings with a a single update message
-#
-# NEPI's nepi_ros.py module provides a number of helper functions for working with NEPI Settings' msg and lists
-#
-#
+# Use eval(settings_states) to convert to list of settings strings
+# NEPI's nepi_nex.py module provides a number of helper functions
 string settings_states
 
+# Data products save cfg is a string of supported data products that can be saved, the set save rate in Hz, and current save enable state
+# This value does not start/stop saving data, only whether saving for data product is enabled when saving_data is enabled
+# example python save data states
+# DATA_PRODUCTS_SAVE_ENABLED = ["color_2d_image","1.0","True","bw_2d_image","1.0","False","Pointcloud","1.0","False"]
+# Use eval(save_data_product_enabled) to convert to list of save states strings
+# NEPI's nepi_nex.py module provides a number of helper functions
+string data_products_save_cfg
+
+# Current node save data process state
+bool saving

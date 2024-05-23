@@ -11,7 +11,10 @@ bool adjustable_contrast
 bool adjustable_brightness
 bool adjustable_thresholding
 bool adjustable_range
-bool has_auto_adjustment
+bool auto_adjustment
+bool zoom
+bool rotate
+bool settings
 
 # IDX Generic Data Outputs
 bool has_color_2d_image
@@ -26,16 +29,18 @@ bool has_pointcloud_image
 # String list format ["setting_1_name_string", "type_string", "option_1_string", "option_2_string", ... "option_N_string", "setting_2_name_string", ...)
 # supported type_strings => "Descrite", "String", "Bool", "Int", "Float"
 # supported option strings => none, min/max limits, discrete options, and anything else your process supports
-#
 # example python settings string:
-# cap_settings_list = ["TestDiscrete","Discrete","Option_1","Option_2","Option_3","Option_4",
+# SETTINGS_OPTIONS = ["TestDiscrete","Discrete","Option_1","Option_2","Option_3","Option_4",
 #  			"TestString","String",
 #  			"TestBool","Bool",
 #  			"TestInt","Int","0","100",
 #  			"TestFloat","Float"]
-#
 # Convert string list to python rospy String msg => cap_settings_msg = str(cap_settings_list)
-#
-# NEPI's nepi_ros.py module provides a number of helper functions for working with NEPI Settings' msg and lists
-#
+# NEPI's nepi_ros.py module provides a number of helper functions
 string settings_options
+
+# Data products supported by IDX node is a string of supported data products that can be saved
+# example python save data products list
+# DATA_PRODUCTS = ["color_2d_image","bw_2d_image","Pointcloud"]
+# Use eval(data_products) to convert to list of save options strings
+string data_products
