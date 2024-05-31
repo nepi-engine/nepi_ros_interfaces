@@ -50,27 +50,17 @@ float32 rotate
 # The transfer frame into which 3D data (pointclouds) are transformed for the pointcloud data topic
 string frame_3d
 
-# NEPI Settings State Message
+# NEPI Settings Message
 # Settings are provided as a string of a string list 
 # String list format ["setting_1_name_string", "type_string", "value_as_string", "setting_2_name_string", ...)
 # supported type_strings => "Descrite", "String", "Bool", "Int", "Float"
 # example python settings string:
-# SETTINGS_STATES = ["TestDiscrete","Discrete","Option_1",
+# SETTINGS = ["TestDiscrete","Discrete","Option_1",
 #  			"TestString","String","InitString",
 #  			"TestBool","Bool","False",
 #  			"TestInt","Int","5",
 #  			"TestFloat","Float","3.5"]
-# Use eval(settings_states) to convert to list of settings strings
+# Use eval(settings_msg) to convert to list of settings strings
 # NEPI's nepi_nex.py module provides a number of helper functions
-string settings_states
+string settings
 
-# Data products save cfg is a string of supported data products that can be saved, the set save rate in Hz, and current save enable state
-# This value does not start/stop saving data, only whether saving for data product is enabled when saving_data is enabled
-# example python save data states
-# DATA_PRODUCTS_SAVE_ENABLED = ["color_2d_image","1.0","True","bw_2d_image","1.0","False","Pointcloud","1.0","False"]
-# Use eval(save_data_product_enabled) to convert to list of save states strings
-# NEPI's nepi_nex.py module provides a number of helper functions
-string data_products_save_cfg
-
-# Current node save data process state
-bool saving
