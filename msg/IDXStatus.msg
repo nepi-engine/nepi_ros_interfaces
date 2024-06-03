@@ -52,7 +52,7 @@ string frame_3d
 
 # NEPI Settings Message
 # Settings are provided as a string of a string list 
-# String list format ["setting_1_name_string", "type_string", "value_as_string", "setting_2_name_string", ...)
+# Setting msg format = str(["setting_1_name_string", "type_string", "value_as_string", "setting_2_name_string", ...])
 # supported type_strings => "Descrite", "String", "Bool", "Int", "Float"
 # example python settings string:
 # SETTINGS = ["TestDiscrete","Discrete","Option_1",
@@ -63,4 +63,19 @@ string frame_3d
 # Use eval(settings_msg) to convert to list of settings strings
 # NEPI's nepi_nex.py module provides a number of helper functions
 string settings
+
+# Save Data Config is a string of a list of node available data products and their current configured save rate.
+# Save Data Config msg format = str(["data_product_name", "##", "data_product_name", "##", ...])
+# Save rates = 0 will not save when saving is enabled
+string save_data_config
+
+# Save Data Prefix added to data save files.  use "/" to add folder
+# exmples "test_data","test_folder/", "test_folder/test_data"
+string save_data_prefix
+
+# Save Data Enabled is enabled if sensor node Saving is enabled
+bool save_data_enabled
+
+# Save Data Nav Enabled is enabled if navpose node Saving is enabled
+bool save_data_nav_enabled
 
