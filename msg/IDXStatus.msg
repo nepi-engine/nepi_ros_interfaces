@@ -64,10 +64,10 @@ string frame_3d
 # NEPI's nepi_nex.py module provides a number of helper functions
 string settings
 
-# Save Data Config is a string of a list of node available data products and their current configured save rate.
-# Save Data Config msg format = str(["data_product_name", "##", "data_product_name", "##", ...])
+# Save Data Configs is a string of a list of node available data products and their current configured save rate.
+# Save Data Configs msg format = str(["data_product_name", "##", "data_product_name", "##", ...])
 # Save rates = 0 will not save when saving is enabled
-string save_data_config
+string save_data_configs
 
 # Save Data Prefix added to data save files.  use "/" to add folder
 # exmples "test_data","test_folder/", "test_folder/test_data"
