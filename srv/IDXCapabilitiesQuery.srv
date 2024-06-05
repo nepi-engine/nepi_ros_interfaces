@@ -12,8 +12,6 @@ bool adjustable_brightness
 bool adjustable_thresholding
 bool adjustable_range
 bool auto_adjustment
-bool zoom
-bool rotate
 bool settings
 
 # IDX Generic Data Outputs

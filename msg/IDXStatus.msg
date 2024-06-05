@@ -44,8 +44,11 @@ float32 max_range_m
 # The zoom field indicates the 0.0 - 1.0 zoom ratio for pointcloud image setting of the device
 float32 zoom
 
-# The roate field indicates the 0.0 - 1.0 rotate ratio for pointcloud image setting of the device
+# The rotate field indicates the 0.0 - 1.0 rotate ratio for pointcloud image setting of the device
 float32 rotate
+
+# The tilt field indicates the 0.0 - 1.0 tilt ratio for pointcloud image setting of the device
+float32 tilt
 
 # The transfer frame into which 3D data (pointclouds) are transformed for the pointcloud data topic
 string frame_3d
