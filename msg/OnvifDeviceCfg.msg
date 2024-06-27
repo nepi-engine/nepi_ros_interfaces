@@ -4,6 +4,8 @@
 # Unique device identifier
 string uuid
 
+string device_name
+
 # Login Credentials
 string username
 string password

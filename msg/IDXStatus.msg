@@ -4,9 +4,16 @@
 # a minimal set of tweaks to reduce complexity for operators.
 
 # Device Identifiers
+string device_name
+string sensor_name
+string identifier
 string serial_num
 string hw_version
 string sw_version
+
+
+# user updatable device name
+string user_name
 
 # In standby or not
 bool standby
@@ -67,18 +74,7 @@ string frame_3d
 # NEPI's nepi_nex.py module provides a number of helper functions
 string settings
 
-# Save Data Configs is a string of a list of node available data products and their current configured save rate.
-# Save Data Configs msg format = str(["data_product_name", "##", "data_product_name", "##", ...])
-# Save rates = 0 will not save when saving is enabled
-string save_data_configs
+#String of available produced data products that can be subscribed to or saved
+string data_products
 
-# Save Data Prefix added to data save files.  use "/" to add folder
-# exmples "test_data","test_folder/", "test_folder/test_data"
-string save_data_prefix
-
-# Save Data Enabled is enabled if sensor node Saving is enabled
-bool save_data_enabled
-
-# Save Data Nav Enabled is enabled if navpose node Saving is enabled
-bool save_data_nav_enabled
 

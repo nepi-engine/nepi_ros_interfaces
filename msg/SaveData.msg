@@ -1,4 +1,4 @@
-# This message details the 3DX node's data saving settings.
+# This message details the NEPI node's data saving settings.
 
 # The save_continuous field provides the on/off mechanism for traditional data saving
 bool save_continuous

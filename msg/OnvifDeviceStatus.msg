@@ -4,6 +4,8 @@
 # Unique device identifier
 string uuid
 
+string device_name
+
 # Device reported manufacturer info
 string manufacturer
 string model

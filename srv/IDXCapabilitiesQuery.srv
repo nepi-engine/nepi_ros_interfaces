@@ -12,7 +12,6 @@ bool adjustable_brightness
 bool adjustable_thresholding
 bool adjustable_range
 bool auto_adjustment
-bool settings
 
 # IDX Generic Data Outputs
 bool has_color_2d_image
@@ -21,21 +20,6 @@ bool has_depth_map
 bool has_depth_image
 bool has_pointcloud
 bool has_pointcloud_image
-
-# NEPI Settings Options
-# Settings capabilities are provided as a string of a string list 
-# String list format ["setting_1_name_string", "type_string", "option_1_string", "option_2_string", ... "option_N_string", "setting_2_name_string", ...)
-# supported type_strings => "Descrite", "String", "Bool", "Int", "Float"
-# supported option strings => none, min/max limits, discrete options, and anything else your process supports
-# example python settings string:
-# SETTINGS_OPTIONS = ["TestDiscrete","Discrete","Option_1","Option_2","Option_3","Option_4",
-#  			"TestString","String",
-#  			"TestBool","Bool",
-#  			"TestInt","Int","0","100",
-#  			"TestFloat","Float"]
-# Convert string list to python rospy String msg => cap_settings_msg = str(cap_settings_list)
-# NEPI's nepi_ros.py module provides a number of helper functions
-string settings_options
 
 # Data products supported by IDX node is a string of supported data products that can be subscribed to or saved
 # example python save data products list

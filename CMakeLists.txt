@@ -65,6 +65,8 @@ add_message_files(
     RangeWindow.msg
     Angle3DX.msg
     AutoManualSelection3DX.msg
+    BoundingBox.msg
+    BoundingBox.msg
     Status3DX.msg
     IDXStatus.msg
     HwTrigInCfg.msg
@@ -84,6 +86,8 @@ add_message_files(
     ClassifierSelection.msg
     Heading.msg
     NEPILinkStatus.msg
+    ObjectCount.msg
+    SettingUpdate.msg
     StringArray.msg
     StringEnable.msg
     Offset.msg
@@ -98,6 +102,8 @@ add_message_files(
     PanTiltPosition.msg
     PanTiltLimits.msg
     PanTiltStatus.msg
+    PointcloudRenderStatus.msg
+    PointcloudProcessStatus.msg
     SingleAxisTimedMove.msg
     AbsolutePanTiltWaypoint.msg
     OnvifDeviceCfg.msg
@@ -135,6 +141,7 @@ add_service_files(
     GetScriptStatusQuery.srv
     LaunchScript.srv
     SetScriptEnabled.srv
+    SettingsCapabilitiesQuery.srv
     StopScript.srv
     GetSystemStatsQuery.srv
     SystemStorageFolderQuery.srv
