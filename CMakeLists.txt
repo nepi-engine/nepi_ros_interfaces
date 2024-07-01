@@ -67,7 +67,6 @@ add_message_files(
     AutoManualSelection3DX.msg
     BoundingBox.msg
     BoundingBox.msg
-    Status3DX.msg
     IDXStatus.msg
     HwTrigInCfg.msg
     HwTrigOutCfg.msg
