@@ -57,22 +57,11 @@ float32 rotate
 # The tilt field indicates the 0.0 - 1.0 tilt ratio for pointcloud image setting of the device
 float32 tilt
 
-# The transfer frame into which 3D data (pointclouds) are transformed for the pointcloud data topic
-string frame_3d
+# Input Transform for 3D data (pointclouds) from sensor's native 3D frame to the nepi_center_frame 
+Frame3DTransform frame_3d_transform
 
-# NEPI Settings Message
-# Settings are provided as a string of a string list 
-# Setting msg format = str(["setting_1_name_string", "type_string", "value_as_string", "setting_2_name_string", ...])
-# supported type_strings => "Descrite", "String", "Bool", "Int", "Float"
-# example python settings string:
-# SETTINGS = ["TestDiscrete","Discrete","Option_1",
-#  			"TestString","String","InitString",
-#  			"TestBool","Bool","False",
-#  			"TestInt","Int","5",
-#  			"TestFloat","Float","3.5"]
-# Use eval(settings_msg) to convert to list of settings strings
-# NEPI's nepi_nex.py module provides a number of helper functions
-string settings
+# Output transform into which 3D data (pointclouds) are published
+string frame_3d
 
 #String of available produced data products that can be subscribed to or saved
 string data_products

@@ -1,14 +1,18 @@
-# This message details point cloud rendering status
+# This message details pointcloud rendering status
 
-# Subscribed pointcloud topics
-string pointcloud_topics
+# Standard Image Size Opions string list
+string standard_image_sizes
 
-# Following provide the set range limits in meters for the clipping ratio 
-RangeWindow min_max_range_m
+# Render Image Size
+int32 image_width
+int32 image_height
+
+# Range limits in meters for the clipping
+RangeWindow range_min_max_m
 
 # The range_window field provides the start and stop range as currently configured for the device
 # Each range is expressed as a multiplier on the sensor's max range (0.0 - 1.0)
-RangeWindow clip_range_ratio
+RangeWindow range_clip_ratios
 
 # Zoom Ratio 0.0 - 1.0
 float32 zoom_ratio
@@ -28,5 +32,3 @@ geometry_msgs/Vector3 camera_position
 # Camera Rotation -1,0,1 options for (x,y,z)
 geometry_msgs/Vector3 camera_rotation
 
-# The transfer frame into which 3D data (pointclouds) are transformed for the pointcloud data topic
-string frame_3d

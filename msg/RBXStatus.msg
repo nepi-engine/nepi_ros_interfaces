@@ -1,16 +1,25 @@
-# This message provides the Numurus RBX status, as defined in the RBX interface standard. It is generic to
-# all RBX sensor nodes in the system.
+# This message provides the Numurus RBX Device Status Information
+
+# Connected to robot 
+bool connected
 
 # Device identifiers
+string device_name
 string serial_num
 string hw_version
 string sw_version
 
+# Current nav_pose info
+float32 current_lat
+float32 current_long
+float32 current_altitude
+float32 current_heading
+float32 current_roll
+float32 current_pitch
+float32 current_yaw
+
 # In standby or not
 bool standby
-
-# Commanded controls for AxisEnable fields set to False will be ignored
-AxisControls control_support
 
 # Index to enumerated state options
 uint8 state
@@ -31,12 +40,6 @@ bool ready
 # Battery charge state (0.0-1.0 percent)
 float32 battery	
 
-# Move spee (0.0-1.0 percent of max translational speed for translational command control movements)
-float32 move_speed
-
-# Rotation speed (0.0-1.0 percent of max translational speed for rotational command control movements)
-float32 rotate_speed
-
 # Abs error bounds for command controls
 RBXErrorBounds error_bounds
 
@@ -55,5 +58,19 @@ float32 cmd_timeout
 # Updated after ready status goes from busy to ready value
 bool cmd_success
 
-# Base image topic for status overlay image. Blank string indicates black image background
-string status_image_source
+# image topic to associate with driver. Blank string indicates black image background
+string image_source
+
+# Overlay status message over image
+bool image_status_overlay
+
+# Manual and Autonomous Control Ready States
+bool in_manual_control_mode
+bool in_autononous_control_mode
+
+# Current Motor Controls string for Manual motor control mode. Returns a string "[['motor_index','motor_speed_ratio'],...]
+string current_motor_control_settings
+
+
+# Last error message
+string last_error_message
