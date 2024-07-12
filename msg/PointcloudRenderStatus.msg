@@ -23,6 +23,9 @@ float32 rotate_ratio
 # Tilt Ratio 0.0 - 1.0
 float32 tilt_ratio
 
+# Camera Field of View
+int32 camera_fov
+
 # Camera View in meters (x,y,z)
 geometry_msgs/Vector3 camera_view
 
