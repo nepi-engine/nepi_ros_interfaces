@@ -66,8 +66,11 @@ add_message_files(
     Angle3DX.msg
     AutoManualSelection3DX.msg
     BoundingBox.msg
-    BoundingBox.msg
-    Status3DX.msg
+    BoundingBox3D.msg
+    BoundingBoxes.msg
+    BoundingBoxes3D.msg
+    Frame3DTransform.msg
+    Frame3DTransformUpdate.msg
     IDXStatus.msg
     HwTrigInCfg.msg
     HwTrigOutCfg.msg
@@ -97,13 +100,15 @@ add_message_files(
     TargetLocalizationScene.msg
     ImageMuxInput.msg
     ImageMuxSequence.msg
+    ImageSize.msg
     AutoStartEnabled.msg
     WifiCredentials.msg
     PanTiltPosition.msg
     PanTiltLimits.msg
     PanTiltStatus.msg
-    PointcloudRenderStatus.msg
+    PointcloudSelectionStatus.msg
     PointcloudProcessStatus.msg
+    PointcloudRenderStatus.msg
     SingleAxisTimedMove.msg
     AbsolutePanTiltWaypoint.msg
     OnvifDeviceCfg.msg
@@ -111,6 +116,10 @@ add_message_files(
     AxisControls.msg
     RBXErrorBounds.msg
     RBXGotoErrors.msg
+    RBXGotoPose.msg
+    RBXGotoPosition.msg
+    RBXGotoLocation.msg
+    RBXMotorControl.msg
     RBXStatus.msg
     LSXStatus.msg
 )
