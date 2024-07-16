@@ -120,6 +120,7 @@ add_message_files(
     RBXGotoPosition.msg
     RBXGotoLocation.msg
     RBXMotorControl.msg
+    RBXInfo.msg
     RBXStatus.msg
     LSXStatus.msg
 )
