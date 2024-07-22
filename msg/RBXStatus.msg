@@ -20,7 +20,7 @@ string process_last
 # then check for ready for completion of action
 bool ready
 
-# Battery charge state (0.0-1.0 percent)
+# Battery charge state (0.0-1.0 percent) -999 if not available
 float32 battery	
 
 # Signed error values for current control process 
@@ -37,7 +37,10 @@ bool cmd_success
 
 # Manual and Autonomous Control Ready States
 bool manual_motor_control_mode_ready
-bool autononous_control_mode_ready
+bool autonomous_control_mode_ready
+
+# Current Motor Controls string for Manual motor control mode. Returns a string "[['motor_index','motor_speed_ratio'],...]
+string current_motor_control_settings
 
 # Last error message
 string last_error_message

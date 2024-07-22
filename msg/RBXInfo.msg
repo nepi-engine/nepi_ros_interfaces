@@ -30,7 +30,12 @@ string image_source
 # Overlay status message over image
 bool image_status_overlay
 
-# Current Motor Controls string for Manual motor control mode. Returns a string "[['motor_index','motor_speed_ratio'],...]
-string current_motor_control_settings
+# Home Location Lat, Long, altitude_meters
+float32 home_lat
+float32 home_long
+float32 home_alt
+
+# Fake GPS Enabled
+bool fake_gps_enabled
 
 

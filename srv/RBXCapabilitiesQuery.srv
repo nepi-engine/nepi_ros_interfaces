@@ -4,13 +4,19 @@
 # Commanded controls for fields set to False will be ignored
 AxisControls control_support
 
+bool has_battery_feedback
+
+bool has_motor_controls
+bool has_autonomous_controls
+bool has_set_home
 bool has_go_home
 bool has_go_stop
 bool has_goto_pose
 bool has_goto_position
 bool has_goto_location
-bool has_motor_controls
-string[] state_options
-string[] mode_options
-string[] action_options
-string[] data_products
+
+string state_options
+string mode_options
+string action_options
+string data_products
+
