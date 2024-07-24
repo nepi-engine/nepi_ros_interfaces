@@ -77,6 +77,7 @@ add_message_files(
     TestPatternCfg.msg
     PeriodicSwTrig.msg
     NavPose.msg
+    NavPoseResponse.msg
     StampedString.msg
     SystemStatus.msg
     SystemDefs.msg
