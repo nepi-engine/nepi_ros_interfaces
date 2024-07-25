@@ -35,3 +35,5 @@ geometry_msgs/Vector3 camera_position
 # Camera Rotation -1,0,1 options for (x,y,z)
 geometry_msgs/Vector3 camera_rotation
 
+# Render Enable
+bool render_enable
