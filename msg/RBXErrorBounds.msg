@@ -2,4 +2,4 @@
 
 float32 max_distance_error_m
 float32 max_rotation_error_deg
-float32 max_stabilize_time_s
+float32 min_stabilize_time_s
