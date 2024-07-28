@@ -102,6 +102,7 @@ add_message_files(
     ImageMuxInput.msg
     ImageMuxSequence.msg
     ImageSize.msg
+    ImageSelection.msg
     AutoStartEnabled.msg
     WifiCredentials.msg
     PanTiltPosition.msg
