@@ -6,7 +6,7 @@ AxisControls control_support
 
 bool has_battery_feedback
 
-bool has_motor_controls
+bool has_manual_controls
 bool has_autonomous_controls
 bool has_set_home
 bool has_go_home

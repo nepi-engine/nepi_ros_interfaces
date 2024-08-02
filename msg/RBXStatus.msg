@@ -36,7 +36,7 @@ RBXGotoErrors errors_prev
 bool cmd_success
 
 # Manual and Autonomous Control Ready States
-bool manual_motor_control_mode_ready
+bool manual_control_mode_ready
 bool autonomous_control_mode_ready
 
 # Current Motor Controls string for Manual motor control mode. Returns a string "[['motor_index','motor_speed_ratio'],...]
