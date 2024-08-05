@@ -13,10 +13,10 @@ string sw_version
 bool standby
 
 # Index to enumerated state options
-uint8 state
+int32 state
 
 # Index to enumerated mode options
-uint8 mode
+int32 mode
 
 # Abs error bounds for command controls
 RBXErrorBounds error_bounds

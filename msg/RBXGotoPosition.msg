@@ -1,4 +1,5 @@
 # GoTo Position Msg
+# X,Y,Z access is Forward, Right, Down
 # Degree Values should be between -180 and 180 degrees
 # Value = -999 uses current value
 
