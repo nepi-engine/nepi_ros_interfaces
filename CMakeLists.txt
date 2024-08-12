@@ -125,6 +125,9 @@ add_message_files(
     RBXInfo.msg
     RBXStatus.msg
     LSXStatus.msg
+    AiDetectorStatus.msg
+    AiDetectorAddClass.msg
+    
 )
 
 ## Generate services in the 'srv' folder

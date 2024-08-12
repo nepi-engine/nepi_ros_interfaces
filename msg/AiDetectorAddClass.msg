@@ -1,0 +1,2 @@
+string class_name
+float32 class_depth_m
