@@ -1,14 +1,18 @@
+bool targeting_enabled
+
 string classifier_name
 string classifier_state
-string available_classes_list
 
 string image_topic
 string depth_map_topic
 string pointcloud_topic
 
+string available_classes_list
 string selected_classes_list
 string selected_classes_depth_list
 
+string available_targets_list
+string selected_target
 
 float32 image_fov_vert_degs 
 float32 image_fov_horz_degs 

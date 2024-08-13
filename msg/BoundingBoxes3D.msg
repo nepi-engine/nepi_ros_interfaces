@@ -1,3 +1,6 @@
 Header header
-Header depth_image_header
-BoundingBox3D[] bounding_boxes
+Header image_header
+string image_topic
+Header depth_map_header
+string depth_map_topic
+BoundingBox3D[] bounding_boxes_3d

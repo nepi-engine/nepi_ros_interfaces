@@ -98,7 +98,7 @@ add_message_files(
     RUISettings.msg
     SonarFieldOfView.msg
     TargetLocalization.msg
-    TargetLocalizationScene.msg
+    TargetLocalizations.msg
     ImageMuxInput.msg
     ImageMuxSequence.msg
     ImageSize.msg
@@ -125,8 +125,8 @@ add_message_files(
     RBXInfo.msg
     RBXStatus.msg
     LSXStatus.msg
-    AiDetectorStatus.msg
-    AiDetectorAddClass.msg
+    AiTargetingStatus.msg
+    AiTargetingAddClass.msg
     
 )
 
