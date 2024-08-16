@@ -93,8 +93,6 @@ add_message_files(
     ObjectCount.msg
     Setting.msg
     Settings.msg
-    SettingOption.msg
-    SettingsOptions.msg
     StringArray.msg
     StringEnable.msg
     Offset.msg
