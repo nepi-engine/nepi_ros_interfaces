@@ -91,7 +91,10 @@ add_message_files(
     Heading.msg
     NEPILinkStatus.msg
     ObjectCount.msg
-    SettingUpdate.msg
+    Setting.msg
+    Settings.msg
+    SettingOption.msg
+    SettingsOptions.msg
     StringArray.msg
     StringEnable.msg
     Offset.msg
@@ -126,7 +129,6 @@ add_message_files(
     RBXStatus.msg
     LSXStatus.msg
     AiTargetingStatus.msg
-    AiTargetingAddClass.msg
     
 )
 

@@ -8,3 +8,6 @@ string name_str
 
 # Setting Value string options "MenuOption:Ind","DiscreteOption","String", "True" or "False", "#", "#.#" based on type
 string value_str
+
+# String list of options for capabilities
+string[] options_list
