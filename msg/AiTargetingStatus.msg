@@ -4,7 +4,9 @@ string classifier_name
 string classifier_state
 
 string image_topic
+bool has_depth_map
 string depth_map_topic
+bool has_pointcloud
 string pointcloud_topic
 
 string available_classes_list
@@ -17,9 +19,11 @@ string selected_target
 float32 image_fov_vert_degs 
 float32 image_fov_horz_degs 
 
-float32 target_box_reduction_percent 
+int32 target_box_adjust_percent 
+int32 pc_clip_adjust_percent
 float32 default_target_depth_m 
 float32 target_min_points 
+float32 target_min_dist_m
 float32 target_age_filter 
 
 #string current_targets_list
