@@ -23,6 +23,7 @@ int32 target_box_adjust_percent
 int32 pc_clip_adjust_percent
 float32 default_target_depth_m 
 float32 target_min_points 
+float32 target_min_px_ratio
 float32 target_min_dist_m
 float32 target_age_filter 
 
