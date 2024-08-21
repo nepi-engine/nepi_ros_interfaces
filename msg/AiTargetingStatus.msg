@@ -1,4 +1,4 @@
-bool targeting_enabled
+bool targeting_running
 
 string classifier_name
 string classifier_state
