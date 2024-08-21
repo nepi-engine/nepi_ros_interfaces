@@ -6,7 +6,7 @@ string serial_num
 string hw_version
 string sw_version
 
-bool on_state
+bool on_off_state
 
 # In standby or not
 bool standby

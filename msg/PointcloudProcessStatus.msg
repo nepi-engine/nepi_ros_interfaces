@@ -18,10 +18,5 @@ int32 uniform_downsample_points
 # Outlier Removal K Points, val 0 skips process
 int32 outlier_k_points
 
-# String list of available 3d frames that the processed pointcloud is transformed into
-string available_3d_frames
-
-# The transfer frame into which the processed pointcloud is published and saved in
-string frame_3d
 
 
