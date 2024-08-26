@@ -19,8 +19,8 @@ string selected_target
 float32 image_fov_vert_degs 
 float32 image_fov_horz_degs 
 
-int32 target_box_adjust_percent 
-int32 pc_clip_adjust_percent
+int32 target_box_size_percent 
+int32 pointcloud_box_size_percent
 float32 default_target_depth_m 
 float32 target_min_points 
 float32 target_min_px_ratio
