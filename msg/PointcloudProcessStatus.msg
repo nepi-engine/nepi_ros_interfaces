@@ -1,10 +1,12 @@
 # This message details pointcloud processing status
 
 # Range clipping on pointcloud enabled
-bool range_clip_enabled
+bool clip_enabled
+string[] clip_options
+string clip_selection
 
 # Range limits in meters for the clipping
-RangeWindow range_clip_meters
+RangeWindow clip_meters
 
 # Clip bounding box topic
 string clip_target_topic
