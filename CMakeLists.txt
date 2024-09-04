@@ -94,6 +94,7 @@ add_message_files(
     Setting.msg
     Settings.msg
     StringArray.msg
+    StringArrays.msg
     StringEnable.msg
     Offset.msg
     RUISettings.msg
@@ -127,6 +128,10 @@ add_message_files(
     RBXStatus.msg
     LSXStatus.msg
     AiTargetingStatus.msg
+    DriversStatus.msg
+    DriverUpdateState.msg
+    DriverUpdateOrder.msg
+    DriverUpdateOption.msg
     
 )
 
@@ -169,6 +174,7 @@ add_service_files(
     RBXCapabilitiesQuery.srv
     NavPoseCapabilitiesQuery.srv
     LSXCapabilitiesQuery.srv
+    DriverStatusQuery.srv
 )
 
 ## Generate actions in the 'action' folder

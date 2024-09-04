@@ -9,11 +9,13 @@ string depth_map_topic
 bool has_pointcloud
 string pointcloud_topic
 
-string available_classes_list
-string selected_classes_list
-string selected_classes_depth_list
+string[] available_classes_list
+string[] selected_classes_list
+string[] selected_classes_depth_list
+string[] selected_alert_classes_list
+bool alert_status
 
-string available_targets_list
+string[] available_targets_list
 string selected_target
 
 float32 image_fov_vert_degs 
@@ -27,5 +29,3 @@ float32 target_min_px_ratio
 float32 target_min_dist_m
 float32 target_age_filter 
 
-#string current_targets_list
-#string lost_targets_list
