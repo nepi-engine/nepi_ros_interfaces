@@ -12,3 +12,4 @@ string  set_option
 string[] other_users_list
 bool active_state
 int32  order
+string msg_str

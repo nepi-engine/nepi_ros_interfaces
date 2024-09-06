@@ -129,9 +129,11 @@ add_message_files(
     LSXStatus.msg
     AiTargetingStatus.msg
     DriversStatus.msg
+    DriverStatus.msg
     DriverUpdateState.msg
     DriverUpdateOrder.msg
     DriverUpdateOption.msg
+    DriverUpdateMsg.msg
     
 )
 
@@ -174,7 +176,6 @@ add_service_files(
     RBXCapabilitiesQuery.srv
     NavPoseCapabilitiesQuery.srv
     LSXCapabilitiesQuery.srv
-    DriverStatusQuery.srv
 )
 
 ## Generate actions in the 'action' folder
