@@ -11,4 +11,11 @@ string selected_classifier_classes
 string classifier_state
 float32 loading_progress
 float32 detection_threshold
+<<<<<<< HEAD
+=======
+bool has_depth_map
+string depth_map_topic
+bool has_pointcloud
+string pointcloud_topic
+>>>>>>> 56fddaa35473f1f97a4046da6adaa912321cbe5b
 
