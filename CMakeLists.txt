@@ -133,7 +133,6 @@ add_message_files(
     DriverUpdateState.msg
     DriverUpdateOrder.msg
     DriverUpdateOption.msg
-    DriverUpdateMsg.msg
     
 )
 
