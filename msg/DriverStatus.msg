@@ -1,10 +1,15 @@
 string name
+string description
 string path
 string group
 string group_id
 string interfaces
-string options
-string set_option
+string options_1_name
+string options_1
+string set_option_1
+string options_2_name
+string options_2
+string set_option_2
 string discovery
 string other_users_list
 bool active_state
