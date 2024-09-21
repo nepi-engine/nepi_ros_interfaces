@@ -32,8 +32,6 @@ float32 target_min_px_ratio
 float32 target_min_dist_m
 float32 target_age_filter 
 
-# string list of transforms\ 
-# from source's native frame to the nepi_center_frame 
-# example: str([x_offset,y_offset,z_offset,roll_offset,pitch_offset,yaw_offset,heading_offset])
-string transform_3d
+# Input Transform for data from image source's native frame to the nepi_center_frame 
+nepi_ros_interfaces/Frame3DTransform frame_3d_transform
 

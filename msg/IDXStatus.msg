@@ -57,7 +57,7 @@ float32 rotate
 # The tilt field indicates the 0.0 - 1.0 tilt ratio for pointcloud image setting of the device
 float32 tilt
 
-# Input Transform for 3D data (pointclouds) from sensor's native 3D frame to the nepi_center_frame 
+# Input Transform for data from sensor's native sensor frame to the nepi_center_frame 
 nepi_ros_interfaces/Frame3DTransform frame_3d_transform
 
 # Output transform into which 3D data (pointclouds) are published
