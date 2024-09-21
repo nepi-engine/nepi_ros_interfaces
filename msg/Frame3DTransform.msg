@@ -7,12 +7,12 @@
 #    where the rotation axes are fixed to the Device's Frame of Reference (DFoR) throughout the rotation sequence
 # 4) Heading is optional offset to NEPI nav_pose configured solution output
 
-# X,Y,Z translation transform vector
+# X,Y,Z translation transform vector in meters
 geometry_msgs/Vector3 translate_vector
 
-# roll,pitch,yaw rotation transform vector
+# roll,pitch,yaw rotation transform vector in degrees
 geometry_msgs/Vector3 rotate_vector
 
-# heading
+# heading transform in degrees
 float32 heading_offset
 

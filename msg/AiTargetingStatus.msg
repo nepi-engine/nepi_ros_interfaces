@@ -13,6 +13,9 @@ string available_classes_list
 string selected_classes_list
 string selected_classes_depth_list
 
+string output_image_options_list
+string selected_output_image
+
 bool alert_status
 
 string available_targets_list
@@ -28,4 +31,9 @@ float32 target_min_points
 float32 target_min_px_ratio
 float32 target_min_dist_m
 float32 target_age_filter 
+
+# string list of transforms\ 
+# from source's native frame to the nepi_center_frame 
+# example: str([x_offset,y_offset,z_offset,roll_offset,pitch_offset,yaw_offset,heading_offset])
+string transform_3d
 

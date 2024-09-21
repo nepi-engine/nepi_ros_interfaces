@@ -58,7 +58,7 @@ float32 rotate
 float32 tilt
 
 # Input Transform for 3D data (pointclouds) from sensor's native 3D frame to the nepi_center_frame 
-Frame3DTransform frame_3d_transform
+nepi_ros_interfaces/Frame3DTransform frame_3d_transform
 
 # Output transform into which 3D data (pointclouds) are published
 string frame_3d
