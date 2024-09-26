@@ -54,8 +54,7 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs sensor_msgs 
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
-add_message_files(
-    FILES
+add_message_files(FILES
     Annotation.msg
     Reset.msg
     SaveData.msg
@@ -101,22 +100,14 @@ add_message_files(
     SonarFieldOfView.msg
     TargetLocalization.msg
     TargetLocalizations.msg
-    ImageMuxInput.msg
-    ImageMuxSequence.msg
     ImageSize.msg
-    ImageSelection.msg
     AutoStartEnabled.msg
     WifiCredentials.msg
     PanTiltPosition.msg
     PanTiltLimits.msg
     PanTiltStatus.msg
-    PointcloudSelectionStatus.msg
-    PointcloudProcessStatus.msg
-    PointcloudRenderStatus.msg
     SingleAxisTimedMove.msg
     AbsolutePanTiltWaypoint.msg
-    OnvifDeviceCfg.msg
-    OnvifDeviceStatus.msg
     AxisControls.msg
     RBXErrorBounds.msg
     RBXGotoErrors.msg
@@ -127,13 +118,13 @@ add_message_files(
     RBXInfo.msg
     RBXStatus.msg
     LSXStatus.msg
-    AiTargetingStatus.msg
     DriversStatus.msg
     DriverStatus.msg
-    DriverUpdateState.msg
-    DriverUpdateOrder.msg
-    DriverUpdateOption.msg
-    
+    UpdateState.msg
+    UpdateOrder.msg
+    UpdateOption.msg
+    AppsStatus.msg
+    AppStatus.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -166,12 +157,7 @@ add_service_files(
     StopScript.srv
     GetSystemStatsQuery.srv
     SystemStorageFolderQuery.srv
-    ImageMuxSequenceQuery.srv
     PTXCapabilitiesQuery.srv
-    OnvifDeviceListQuery.srv
-    OnvifDeviceCfgUpdate.srv
-    OnvifDeviceCfgDelete.srv
-    OnvifDeviceDriverListQuery.srv
     RBXCapabilitiesQuery.srv
     NavPoseCapabilitiesQuery.srv
     LSXCapabilitiesQuery.srv
@@ -223,7 +209,8 @@ generate_messages(
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-   CATKIN_DEPENDS message_runtime
+   CATKIN_DEPENDS 
+   message_runtime
 )
 
 ###########

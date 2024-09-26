@@ -1,3 +1,3 @@
 
-string driver_name
+string name
 bool active_state

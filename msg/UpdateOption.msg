@@ -1,3 +1,3 @@
 
-string driver_name
+string name
 string option_str

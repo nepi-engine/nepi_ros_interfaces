@@ -6,5 +6,5 @@ string MOVE_DOWN = down
 string MOVE_BOTTOM = bottom
 
 
-string driver_name
+string name
 string move_cmd
