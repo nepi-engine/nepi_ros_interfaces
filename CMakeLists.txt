@@ -92,6 +92,8 @@ add_message_files(FILES
     ObjectCount.msg
     Setting.msg
     Settings.msg
+    SettingCap.msg
+    SettingCaps.msg
     StringArray.msg
     StringArrays.msg
     StringEnable.msg
@@ -125,6 +127,15 @@ add_message_files(FILES
     UpdateOption.msg
     AppsStatus.msg
     AppStatus.msg
+    AiTargetingStatus.msg
+    ImageMuxInput.msg
+    ImageMuxSequence.msg
+    ImageSelection.msg
+    OnvifDeviceCfg.msg
+    OnvifDeviceStatus.msg
+    PointcloudProcessStatus.msg
+    PointcloudRenderStatus.msg
+    PointcloudSelectionStatus.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -161,6 +172,14 @@ add_service_files(
     RBXCapabilitiesQuery.srv
     NavPoseCapabilitiesQuery.srv
     LSXCapabilitiesQuery.srv
+    ImageMuxSequenceQuery.srv
+    OnvifDeviceCfgDelete.srv
+    OnvifDeviceCfgUpdate.srv
+    OnvifDeviceDriverListQuery.srv
+    OnvifDeviceListQuery.srv
+    AppStatusQuery.srv
+    DriverStatusQuery.srv
+
 )
 
 ## Generate actions in the 'action' folder

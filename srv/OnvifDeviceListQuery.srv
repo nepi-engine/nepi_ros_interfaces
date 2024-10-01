@@ -1,0 +1,6 @@
+# This service definition provides the list (including status and configuration) of a collection of detected ONVIF devices
+
+---
+OnvifDeviceStatus[] device_statuses
+OnvifDeviceCfg[] device_cfgs
+

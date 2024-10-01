@@ -1,20 +1,6 @@
 # This service definition provides the capabilities report for a NEPI Settings
 
 ---
-# NEPI Settings Options
-# Settings capabilities are provided as a string of a string list 
-# String list format [["type_string","setting_1_name_string", "option_1_string", "option_2_string", ... "option_N_string"],
-# ["type_string", "setting_2_name_string", ...]]
-# supported type_strings => "Menu","Descrite", "String", "Bool", "Int", "Float"
-# supported option strings => none, min/max limits, discrete options, and anything else your process supports
-# example python settings string:
-# SETTINGS_OPTIONS = [["Menu","TestMenu", "Option1:0","Option2:1"],
-#			["Discrete","TestDiscrete","Option_1","Option_2","Option_3","Option_4"],
-#  			["String","TestString"],
-#  			["Bool","TestBool"],
-#  			["Int","TestInt","0","100"],
-#  			["Float","TestFloat"]]
-# Convert string list to python rospy String msg => cap_settings_msg = str(cap_settings_list)
-# NEPI's nepi_nex.py module provides a number of helper functions
-string settings_options
+int32 settings_count
+SettingCap[] setting_caps_list
 
