@@ -7,8 +7,8 @@ string current_folder_prefix
 # The filename prefix added to NEPI data product save files
 string current_filename_prefix
 
-# The save_data_rates is a string list of registered data_products and their current save rate settings
-string save_data_rates
+# Array of data product names
+nepi_ros_interfaces/SaveDataRate[] save_data_rates
 
 # The save_data field indicates whether captured data is currently being saved in continuous fashion. The
 # save-data-next control does not affect this field
