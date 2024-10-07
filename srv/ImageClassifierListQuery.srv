@@ -1,4 +1,7 @@
 # Service file for the list of object classifiers supported by this device
 
 ---
-string[] classifiers
+string[] ai_frameworks
+string[] active_ai_frameworks
+string[] models
+string[] active_models
