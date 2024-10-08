@@ -55,6 +55,7 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs sensor_msgs 
 
 ## Generate messages in the 'msg' folder
 add_message_files(FILES
+    AiFrameworksStatus.msg
     Annotation.msg
     Reset.msg
     SaveData.msg
@@ -136,6 +137,7 @@ add_message_files(FILES
     PointcloudProcessStatus.msg
     PointcloudRenderStatus.msg
     PointcloudSelectionStatus.msg
+    
 )
 
 ## Generate services in the 'srv' folder
