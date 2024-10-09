@@ -1,5 +1,5 @@
 string[] ai_frameworks
 string[] active_ai_frameworks
-string[] models
-string[] active_models
+string[] ai_models
+string[] active_ai_models
 
