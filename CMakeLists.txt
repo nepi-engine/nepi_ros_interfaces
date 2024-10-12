@@ -137,6 +137,7 @@ add_message_files(FILES
     PointcloudProcessStatus.msg
     PointcloudRenderStatus.msg
     PointcloudSelectionStatus.msg
+    NavPosePub.msg
     
 )
 
@@ -181,7 +182,7 @@ add_service_files(
     OnvifDeviceListQuery.srv
     AppStatusQuery.srv
     DriverStatusQuery.srv
-
+    NavPosePubQuery.srv
 )
 
 ## Generate actions in the 'action' folder
