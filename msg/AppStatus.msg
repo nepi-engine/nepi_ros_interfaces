@@ -1,6 +1,7 @@
 string name
 
 string pkg_name
+string group_name
 string node_name
 string app_file
 string app_path   

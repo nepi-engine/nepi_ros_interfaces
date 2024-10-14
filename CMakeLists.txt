@@ -129,6 +129,7 @@ add_message_files(FILES
     AppsStatus.msg
     AppStatus.msg
     AiTargetingStatus.msg
+    AiTargetingTargets.msg
     ImageMuxInput.msg
     ImageMuxSequence.msg
     ImageSelection.msg
@@ -138,6 +139,8 @@ add_message_files(FILES
     PointcloudRenderStatus.msg
     PointcloudSelectionStatus.msg
     NavPosePub.msg
+    MgrsStatus.msg
+    MgrStatus.msg
     
 )
 
@@ -183,6 +186,7 @@ add_service_files(
     AppStatusQuery.srv
     DriverStatusQuery.srv
     NavPosePubQuery.srv
+    MgrStatusQuery.srv
 )
 
 ## Generate actions in the 'action' folder

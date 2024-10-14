@@ -1,5 +1,6 @@
 string apps_path
 string[] apps_ordered_list
+string[] apps_group_list
 string[] apps_active_list
 string apps_install_path
 string[] apps_install_list
