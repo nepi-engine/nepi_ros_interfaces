@@ -141,6 +141,7 @@ add_message_files(FILES
     NavPosePub.msg
     MgrsStatus.msg
     MgrStatus.msg
+    Message.msg
     
 )
 
