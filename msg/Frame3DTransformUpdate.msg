@@ -8,7 +8,7 @@
 # 4) Heading is optional offset to NEPI nav_pose configured solution output
 
 
-# Pointcloud topic namespace to apply transform to
+# Data topic namespace to apply transform to
 string topic_namespace
 
 # Transform
