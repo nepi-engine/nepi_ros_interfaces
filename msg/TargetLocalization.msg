@@ -16,3 +16,8 @@ float64 azimuth_deg
 float64 elevation_deg
 float64[9] position_covariance
 
+
+float32 area_ratio
+float32 area_pixels
+float32 area_meters
+
