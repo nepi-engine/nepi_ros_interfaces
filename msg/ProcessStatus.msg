@@ -14,9 +14,10 @@ string description
 string node_name
 string namespace
 
-string[] data_products
 string save_data_topic
 string config_topic
+
+string[] data_products
 
 #################
 # Process State
@@ -104,4 +105,4 @@ bool show_controls
 bool show_data
 bool show_results
 bool show_stats
-
+bool show_save_data

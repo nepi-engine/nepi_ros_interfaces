@@ -155,6 +155,7 @@ add_message_files(FILES
     PredictStatus.msg
     ProcessStatus.msg
     ProcessResultsHeader.msg
+    ProcessResultsTargets.msg
     ProcessResultsTrack.msg
     RangeWindow.msg
     Reset.msg
