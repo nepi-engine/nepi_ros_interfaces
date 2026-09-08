@@ -27,10 +27,11 @@ bool running
 bool state
 string msg_str
 
+string[] connected_source_topics
 #################
 # Process Settings
 #################
-bool manages_process_rate
+
 float32[] min_max_process_rates
 float32 max_process_rate_hz
 
@@ -48,36 +49,14 @@ nepi_interfaces/DataStatus results
 bool has_results_pub
 string results_pub_namespace
 
-
-#################
-# Process Source Connections
-#################
-bool manages_sources
-bool multi_source_enabled
-bool auto_select_enabled
-bool auto_select_active
-string[] available_source_topics
-string[] selected_sources
-bool[] sources_connected
-string[] sources_pub_namespaces
-
-bool source_selected
-bool source_connected
-
 ###############
 # Process Image Controls
 ###############
-bool has_image_pub
-bool manages_image_pub_rate
+string image_pub_name
 float32[] min_max_image_pub_rates
 float32 max_image_pub_rate_hz
-string image_pub_name
-bool image_pub_enabled
+string[] image_pub_topics
 
-bool use_last_image
-
-string[] imaging_source_topics
-string[] imaging_pub_topics
 
 ###############
 # Process Stats

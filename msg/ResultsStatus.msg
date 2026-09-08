@@ -5,9 +5,6 @@ string timestamp
 string name
 string display_name
 string description
-bool show_data
-bool has_show_control
-bool hidden
 
 #######################
 # Data Info
