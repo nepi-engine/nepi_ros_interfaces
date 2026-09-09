@@ -24,6 +24,7 @@ string[] data_products
 #################
 bool enabled
 bool running
+string state_name
 bool state
 string msg_str
 
@@ -36,6 +37,9 @@ bool has_process_reload
 string[] available_processes
 string selected_process
 bool process_ready
+
+string[] process_state_names
+bool[] process_states
 
 bool has_controls
 nepi_interfaces/ControlsStatus controls
@@ -97,6 +101,7 @@ bool source_connected
 ##########
 # Imaging
 bool manages_imaging
+bool imaging_enabled
 float32[] min_max_image_pub_rates
 float32 max_image_pub_rate_hz
 
@@ -105,6 +110,7 @@ float32 max_image_pub_rate_hz
 # Display Controls
 ###############
 bool show_enable
+bool show_states
 bool show_rates
 bool show_selector
 bool show_process
