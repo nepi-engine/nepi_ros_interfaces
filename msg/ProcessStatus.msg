@@ -27,7 +27,7 @@ bool running
 bool state
 string msg_str
 
-string[] connected_source_topics
+
 #################
 # Process Settings
 #################
@@ -48,6 +48,24 @@ nepi_interfaces/DataStatus results
 
 bool has_results_pub
 string results_pub_namespace
+
+string[] connected_source_topics
+
+#################
+# Process Source Connections
+#################
+bool manages_sources
+bool multi_source_enabled
+bool auto_select_enabled
+bool auto_select_active
+string[] available_source_topics
+string[] selected_sources
+bool[] sources_connected
+string[] sources_pub_namespaces
+
+bool source_selected
+bool source_connected
+
 
 ###############
 # Process Image Controls
