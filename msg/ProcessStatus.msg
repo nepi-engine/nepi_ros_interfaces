@@ -38,8 +38,8 @@ string[] available_processes
 string selected_process
 bool process_ready
 
-string[] process_state_names
-bool[] process_states
+bool has_states
+nepi_interfaces/DataStatus states
 
 bool has_controls
 nepi_interfaces/ControlsStatus controls
@@ -53,8 +53,12 @@ bool has_results_pub
 string results_pub_namespace
 
 bool has_image_pub
+bool image_pub_enabled
 string image_pub_name
+string[] image_source_topics
 string[] image_pub_topics
+
+
 
 
 
@@ -100,11 +104,13 @@ bool source_connected
 
 ##########
 # Imaging
-
-bool image_pub_enabled
 bool manages_imaging
 float32[] min_max_image_pub_rates
 float32 max_image_pub_rate_hz
+
+bool use_last_image
+
+
 
 
 ###############
