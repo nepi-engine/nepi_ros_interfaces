@@ -100,8 +100,9 @@ bool source_connected
 
 ##########
 # Imaging
+
+bool image_pub_enabled
 bool manages_imaging
-bool imaging_enabled
 float32[] min_max_image_pub_rates
 float32 max_image_pub_rate_hz
 
