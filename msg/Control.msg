@@ -1,25 +1,20 @@
 # Control Message
 
 string name
-string display_name
 string description
 
-# Control Type string options ["Menu","Selection","Selections","Trigger", "Toggle", "Toggles", "String", "Int","Float","FloatSlider","RangeSlider"]
+# Control Info
 string type
 bool param
-int32 round_value
-
+int32 round
 float32 min_bound
 float32 max_bound
-
-
-# RUI Settings
-bool hidden
-bool disabled
-int32 round_display
-string[] labels
-
-# String values are encoded by Sender using nepi_controls sdk module
-string[] options
-string[] default
 string[] value
+
+# Display Settings
+bool display_hidden
+string display_name
+string[] display_labels
+int32 display_round
+string display_row
+string[] display_options

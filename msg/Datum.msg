@@ -12,10 +12,13 @@ string type
 
 int32 round_value
 
-# RUI Settings
+# Display Settings
 bool hidden
+string display_type
+bool display_row
 int32 round_display
 string[] labels
+string[] display_options
 
 # String values are encoded by Sender using nepi_controls sdk module
 
