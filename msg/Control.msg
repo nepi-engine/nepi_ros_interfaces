@@ -18,5 +18,5 @@ bool display_hidden
 string display_name
 string[] display_labels
 int32 display_round
-string display_row
+bool display_row
 
