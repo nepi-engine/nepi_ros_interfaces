@@ -74,6 +74,7 @@ add_message_files(FILES
     ControlsStatus.msg
     ConnectIFStatus.msg
     Datum.msg
+    DataHeader.msg
     DataStatus.msg
     DepthMapStatus.msg
     DatafileCtrl3DX.msg
@@ -154,9 +155,6 @@ add_message_files(FILES
     PredictProcess.msg
     PredictStatus.msg
     ProcessStatus.msg
-    ProcessResultsHeader.msg
-    ProcessResultsTargets.msg
-    ProcessResultsTrack.msg
     RangeWindow.msg
     Reset.msg
     Result.msg
@@ -181,6 +179,9 @@ add_message_files(FILES
     SystemTrigger.msg
     Target.msg
     Targets.msg
+    TargetsStatus.msg
+    Track.msg
+    TrackStatus.msg
     TargetingStatus.msg
     TestPatternCfg.msg
     TimeSeries.msg

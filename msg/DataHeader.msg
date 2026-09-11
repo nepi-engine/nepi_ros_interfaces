@@ -1,4 +1,4 @@
-# Process Process Results Header Message
+# Process Process Header Message
 
 float64 timestamp
 
@@ -7,5 +7,3 @@ string process_namespace
 
 string source_topic
 float64 source_timestamp
-
-string config_topic
