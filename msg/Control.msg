@@ -16,6 +16,7 @@ string[] value
 bool display_disabled
 bool display_hidden
 string display_name
+string[] display_options
 string[] display_labels
 int32 display_round
 bool display_row
